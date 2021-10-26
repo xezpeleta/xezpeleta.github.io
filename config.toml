@@ -1,0 +1,4 @@
+baseURL = 'https://xezpeleta.github.io/'
+languageCode = 'eu-es'
+title = 'Xabi Ezpeleta'
+theme = "ananke"
