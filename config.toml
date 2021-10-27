@@ -1,4 +1,10 @@
 baseURL = 'https://xezpeleta.github.io/'
 languageCode = 'eu-es'
-title = 'Xabi Ezpeleta'
-theme = "ananke"
+title = 'Xabiren bloga'
+theme = "urdazuri"
+
+author = "Xabi Ezpeleta"
+copyright = "Copyright © 2021, Xabier Ezpeleta"
+
+[build]
+  writeStats = true
