@@ -6,6 +6,8 @@ draft: true
 
 Aurreko atalean aipatu bezala, automatizazio tresna ezberdinak erabili nahiko nituzke makina birtualen sorrera eta kudeaketa ahalik eta modu txukunenean egiteko.
 
+<!--more-->
+
 ## Cloud-Init buruz
 Honetarako [Cloud-Init](https://cloud-init.io/) oso ondo datorkit. Makina birtual baten hasieratzea kudeatzeko tresna da. Birtualizazio eta Cloud hornitzaile gehienek onartzen duten estandarra bihurtu da. Sistema eragilearen oinarrizko txantiloi bat izanda, hainbat konfigurazio ezarri daitezke aldiz aurretik (erabiltzaileak, sare konfigurazioa etab.).
 

@@ -8,6 +8,8 @@ Nire egunerokoan askotan erabili behar izaten ditut makina birtualak (VM). VMa s
 
 Gaur egun dauden automatizazio tresna ezberdinak erabiliz lan hauek murriztu ditzazkegu. Nire kasuan, helburu nagusia prozesu hau beti era berean egitea da (bidean ezer ahaztu gabe). Azken finean, **azpiegiturak kode bidez kudeatzerakoan gure lana autodokumentatzen ere ari garela uste dut**.
 
+<!--more-->
+
 Hurrengo artikuluetan VM sorrera eta software instalazioaren inguruko automatizazio gai hauek jorratzen saiatuko naiz:
 
 - [**Cloud-Init**](https://cloud-init.io/): makina birtual baten hasieratzea kudeatzeko tresna da. Birtualizazio eta Cloud hornitzaile gehienek onartzen duten estandarra bihurtu da. Sistema eragilearen oinarrizko txantiloi bat izanda, hainbat konfigurazio ezarri daitezke aldiz aurretik (erabiltzaileak, sare konfigurazioa etab.)
