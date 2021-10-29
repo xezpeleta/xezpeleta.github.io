@@ -1,6 +1,24 @@
 {{ define "main" }}
-<article class="text-center text-gray-700">
-    <h1 class="font-serif font-extralight text-5xl text-gray-500">{{ .Title }}</h1>
-    {{ .Content }}
-</article>
+
+{{ range (.Paginate ( where site.RegularPages "Section" "blog" | first 10 )).Pages }}
+
+    <article class="pb-8">
+        <!-- this <div> includes the title summary -->
+        <div>
+            <h2 class="text-2xl font-semibold text-indigo-700 hover:text-indigo-900"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <span class="prose prose-indigo">{{ .Summary }}</span>
+        </div>
+
+        {{ if .Truncated }}
+            <!-- This <div> includes a read more link, but only if the summary is truncated... -->
+            <div>
+                <a class="text-indigo-700 hover:text-indigo-900 font-semibold" href="{{ .RelPermalink }}">Read More…</a>
+            </div>
+        {{ end }}
+    </article>
+
+{{ end }}
+
+
+
 {{ end }}
