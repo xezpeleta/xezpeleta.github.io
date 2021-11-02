@@ -10,9 +10,9 @@ tags:
 - static
 ---
 
-Blog berri hau sortzen [Hugo](https://gohugo.io)k lagundu dit. Hauek dira bere abantaila nagusiak:
+Blog berri hau sortzen [Hugo](https://gohugo.io)k lagundu dit. Webgune estatikoak sortzeko tresna ezagunetariko bat da. Hauek dira bere abantaila nagusiak:
 
-- Azkartasuna: 1ms baina gutxiago orri bat kargatzeko
+- Azkartasuna: 1ms baina gutxiago orri bat kargatzeko!
 - Malgutasuna: menu eta eduki mota ezberdinak, taxonomiak, etab.
 - Formatu askorekin bateragarria: Markdown, HTML, AsciiDoc, RST, etab.
 - _Go Template_ delakoetan oinarrituta: datuak modu anitzetan azaltzeko gaitasuna ematen du
