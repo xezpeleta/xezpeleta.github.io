@@ -1,13 +1,29 @@
 baseURL = 'https://xezpeleta.github.io/'
 languageCode = 'eu-es'
-title = 'Xabiren bloga'
-theme = "urdazuri"
-
+title = 'Xabi Ezpeleta'
 author = "Xabi Ezpeleta"
+description = "Xabiren bloga"
+keywords = "Blog"
 copyright = "Copyright © 2021, Xabier Ezpeleta"
-
-summaryLength = 200
+theme = "PaperMod"
+paginate = 5
 pluralizeListTitles = false
 
-[build]
-  writeStats = true
+enableRobotsTXT = true
+googleAnalytics = "G-ZJRN8P7X6R"
+
+[analytics]
+[[analytics.google]]
+  SiteVerificationTag = "G-ZJRN8P7X6R"
+
+[menu]
+[[menu.main]]
+  identifier = 'categories'
+  name = 'categories'
+  url = '/categories/'
+  weight = 10
+[[menu.main]]
+  identifier = 'tags'
+  name = 'tags'
+  url = '/tags/'
+  weight = 20
