@@ -3,11 +3,13 @@ title: "Mila esker, Hugo"
 date: 2021-11-05T20:05:58+02:00
 draft: false
 categories:
-- Web development
+- Web
 tags:
 - hugo
 - web
-- static
+- markdown
+- github
+- vscode
 ShowToc: true
 ---
 
