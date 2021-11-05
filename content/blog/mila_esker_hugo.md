@@ -173,3 +173,13 @@ Irudiak copy-paste bidez gehitzen lagunduko digu. Ezarri dudan konfigurazioa (_W
 VSCode ingurunetik atera gabe ia dena egin nahi badugu (postak sortu, zerbitzaria gelditu eta hasi etab...)
 - [Beste extentsio interesgarri batzuk](https://gohugo.io/tools/editors/#visual-studio-code): egia esan, hauek ez ditut probatu ere egin
 
+
+## Ondorioak
+
+Webgune berri bat eraikitzea oso azkarra izan da Hugori esker. Proiektuko [dokumentazio txukunak](https://gohugo.io/documentation/) asko lagundu dit lan horretan. 
+
+Noski, aitortu behar da erabiltzeko ez dela CMS bat bezain erraza. Parametro ezberdinak konfigurazio fitxategi bidez aldatu behar dira, eta edukia markdown lengoaian idatzi (nahiz eta azken honentzat badauden beste aukerak). Modu honetan lan egiten ohituta ez dagoenarentzat ez da erosoa.
+
+Aldiz, oso potentea iruditu zait. Adibide bezala, webgunea eleanitz bihurtzea bi minutuko gauza da. Wordpress-ek aldiz ez du berez horrelako aukerarik eta plugin bidez aktibatu behar da.
+
+Azkenik, lortzen dugun emaitza oso ona da; benetan webgune arina eta azkarra.
