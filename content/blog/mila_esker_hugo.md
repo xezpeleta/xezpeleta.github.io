@@ -1,7 +1,7 @@
 ---
 title: "Mila esker, Hugo"
 date: 2021-11-05T20:05:58+02:00
-draft: true
+draft: false
 categories:
 - Web development
 tags:
