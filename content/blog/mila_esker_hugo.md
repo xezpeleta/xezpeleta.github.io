@@ -1,6 +1,6 @@
 ---
-title: "Mila esker Hugo"
-date: 2021-10-27T21:55:58+02:00
+title: "Mila esker, Hugo"
+date: 2021-11-05T20:05:58+02:00
 draft: true
 categories:
 - Web development
@@ -8,84 +8,166 @@ tags:
 - hugo
 - web
 - static
+ShowToc: true
 ---
 
-Blog berri hau sortzen [Hugo](https://gohugo.io)k lagundu dit. Webgune estatikoak sortzeko tresna ezagunetariko bat da. Hauek dira bere abantaila nagusiak:
+Blog berria sortzen [Hugo](https://gohugo.io)k lagundu dit. [**Webgune estatikoak**](https://www.cloudflare.com/learning/performance/static-site-generator/) sortzeko tresna bikaina da; [Jekyll](https://jekyllrb.com/), [Gatsby](https://www.gatsbyjs.com/) edo [Ghost](https://ghost.org/) bezalako zeozer dela esan daiteke.
 
-- Azkartasuna: 1ms baina gutxiago orri bat kargatzeko!
-- Malgutasuna: menu eta eduki mota ezberdinak, taxonomiak, etab.
-- Formatu askorekin bateragarria: Markdown, HTML, AsciiDoc, RST, etab.
-- _Go Template_ delakoetan oinarrituta: datuak modu anitzetan azaltzeko gaitasuna ematen du
-- Eduki eleanitza sortzeko gaitasuna
+Hauek dira bere abantaila nagusiak:
 
+- Azkartasuna
+- Malgutasuna
+- Erreztasuna
+- Iturri formatu askorekin bateragarria (Markdown, HTML, AsciiDoc, RST, etab.)
+- Eduki eleanitzak sortzeko gaitasuna
 
 Besteak beste, webguneak, blogak edota dokumentazio proiektuak argitaratzeko erabili dezakegu *Hugo*.
 
-<!--more-->
+![Hugoren webgunea](/images/2021-11-02-21-20-04.png) 
 
+## Instalazioa
 
-## Hugo instalazioa
+Hugo instalatzeko aukera ezberdinak ditugu. Debian edo Ubuntu bada zure sistema, [Hugoren errepositoriotik](https://github.com/gohugoio/hugo/releases) **DEB paketea** deskargatzea eta instalatzea gomendatzen dizut.
 
-Hugo instalatzeko aukera ezberdinak ditugu. Debian edo Ubuntu bada zure sistema, [Hugoren GitHub errepositoriotik](https://github.com/gohugoio/hugo/releases) DEB paketea deskargatzea eta instalatzea gomendatzen dizut.
+## Lehen urratsak
 
+### Sortu webgune bat
 
-## Sortu Hugo webgunea
+Jadanik instalatuta? Sor dezagun gure lehen Hugo webgunea:
 
-Jadanik instalatuta? Sor dezagun gure lehen Hugo webgunea agindu bakar batekin:
-
-```
-hugo new site new-site
-```
-
-## Sortu webguneko lehen edukia
-
-Edukia formatu ezberdinetan ulertzen du. Adibidez, Markdown lengoian idatzi nahi badugu `.md` extentsioa gehituko diogu edukiari:
-
-```
-hugo new blog/kaixo-mundua.md
+```console
+$ hugo new site nirewebgunea
 ```
 
-Honek `content/blog` direktorioan fitxategi berri bat sortuko digu. Sortutako fitxategiari bistazo bat botatzen badiogu ikusiko dugu buruko batzuk gehitu dizkiola.
+### _Theme_ bat aukeratu
 
-Hor ikus dezakegu momentuz artikulu hau _Draft_ edo zirriborro moduan dagoela. Testua idatzi eta zuzentzeaz bukatzen dugunean, `draft: false` jarriko beharko dugu.
+Ezer baino lehen, gure webguneak zein itxura izango duen erabaki beharko dugu. Hasteko [Ananke](https://themes.gohugo.io/gohugo-theme-ananke/) _theme_ edo gaia instalatu dezakegu:
 
-## Hugo Theme berri bat sortu
-
-Webgunearen itxura Tailwind erabiliz pertsonalizatu nahi dudanez, [hugo-theme-tailwindcss-starter](https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter) erabili dut.
-
-```
-cd themes
-git clone https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter new-theme-name
+```console
+$ cd nirewebgunea/
+$ git init
+$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 
-Ezabatu git direktorioa eta Iinstalatu beharrezko node paketeak:
+Eta konfigurazioan ezarri:
 
-```
-cd new-theme-name
-rm -fr .git
-npm install
+```console
+$ echo theme = \"ananke\" >> config.toml
 ```
 
-Orain, aldatu `config.toml` konfigurazio fitxategia _theme_ berria erabiltzeko.
+> _Oharra_: TOML lengoaia ez baduzu gustoko, YAML erabili dezakezu (`config.yaml`) 
 
-```
-# config.toml
-theme = "new-theme-name"
-```
+Aukeratzeko _theme_ pila bat ditugu [themes.gohugo.io](ttps://themes.gohugo.io/) webgunean. Nire kasuan [PaperMod](https://themes.gohugo.io/themes/hugo-papermod/) delakoa aukeratu dut (momentuz).
 
-Azkenik, jar dezagun martxan zerbitzaria:
+### Edukia sortzen
 
-```
-cd new-site
-hugo server -D --disableFastRender
+Edukia formatu ezberdinetan ulertzeko gai da. Adibidez, [Markdown](https://guides.github.com/features/mastering-markdown/) lengoian idatzi nahi badugu `.md` extentsioa gehituko diogu edukiari:
+
+```console
+$ hugo new blog/kaixo-mundua.md
 ```
 
-## Gure Theme berria aldatzen
+Honek `content/blog` direktorioan fitxategi berri bat sortuko digu:
 
-Gehitu berri dugun _theme_ hau ez dago erabiltzeko moduan. Lan dexente egin beharko dugu itxura aldatzeko.
+`Fitxategia: content/blog/kaixo-mundua.md`
+```markdown
+---
+title: "Kaixo Mundua"
+date: 2021-11-02T20:05:58+02:00
+draft: true
+---
+```
 
-new-site/themes/new-theme-name/layout
+Hor ikus dezakegu momentuz artikulu hau _Draft_ edo zirriborro moduan dagoela. Testua argitaratu nahi dugunean, `draft: false` jarri beharko dugu.
 
-Garapenean, Helper hauek azalduko dira:
-/partials/dev-parameters.html
-/partials/dev-size-indicator.html
+## Hasieratu Hugo zerbitzaria
+
+Gure ordenagailuan webgunearen aurrebista ikusteko:
+
+```console
+$ hugo server -D
+```
+> _Oharra_: `-D` parametroak zirriborroak ikusteko aukera aktibatuko du.
+
+Sartu [localhost:1313](http://localhost:1313) helbidera. Aldaketak egin ahala emaitza nabigatzailean ikusiko dugu.
+
+## Webgunea argitaratu
+
+Web estatikoen abantaila nagusia argitaratzeko erreztasuna da. Dohainezko zerbitzu asko daude webgune estatikoak argitaratzeko aukera ematen dutenak, besteak beste: [Netlify](https://docs.netlify.com/configure-builds/common-configurations/hugo/), [CloudFlare](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site#deploying-with-cloudflare-pages), [Gitlab](https://gohugo.io/hosting-and-deployment/hosting-on-gitlab/) edota [**Github**](https://gohugo.io/hosting-and-deployment/hosting-on-github/). Nik azken hau aukeratu dut, gehien ezagutzen dudan ingurunea baita.
+
+### Github Action
+
+Horretarako **Github Action** bat sortu behar izan dut nire errepositorioan:
+
+
+`Fitxategia: .github/workflows/gh-pages.yml`
+```yml
+name: github pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+  pull_request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+
+```
+
+Aldaketak aplikatu eta igo ondoren, definitu berri dugun Github Action hori exekutatuko da. Honek `gh-pages` delako _branch_ bat sortuko du webgunearekin.
+
+{{< figure src="/images/2021-11-03-08-59-25.png" align=center alt="gh-pages branch berria" width="300px" >}}
+
+### GitHub Pages
+
+Hain zuzen ere, hau da aukeratu beharko dugun adarra, _Settings_ - _**Pages**_ atalean:
+
+![Settings Pages atala](/images/2021-11-03-09-05-14.png)
+
+Eta listo! Honekin gure edukia moldatzen dugun aldiro webgunea automatikoki eguneratuko da.
+
+
+## Tresna erabilgarriak
+
+Nire kasuan web edukia _Markdown_ testu fitxategien bidez idaztea erabaki dut. Horretarako VSCode erabiltzen dudanez, badaude benetan erabilgarriak diren hainbat extentsio:
+
+- ["Paste Image" extentsioa](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image):
+Irudiak copy-paste bidez gehitzen lagunduko digu. Ezarri dudan konfigurazioa (_Workspace_ eremuan):
+
+
+`Fitxategia: .vscode/settings.json`
+```json
+{
+    "pasteImage.basePath": "${projectRoot}/static",
+    "pasteImage.path": "${projectRoot}/static/images",
+    "pasteImage.prefix": "/"
+}
+```
+
+- ["Hugofy" extentsioa](https://marketplace.visualstudio.com/items?itemName=akmittal.hugofy):
+VSCode ingurunetik atera gabe ia dena egin nahi badugu (postak sortu, zerbitzaria gelditu eta hasi etab...)
+- [Beste extentsio interesgarri batzuk](https://gohugo.io/tools/editors/#visual-studio-code): egia esan, hauek ez ditut probatu ere egin
+
