@@ -1,0 +1,25 @@
+- id: prev_page
+  translation: "Aurreko Orria"
+
+- id: next_page
+  translation: "Hurrengo Orria"
+
+- id: read_time
+  translation:
+    one : "1 min"
+    other: "{{ .Count }} min"
+
+- id: toc
+  translation: "Edukia"
+
+- id: translations
+  translation: "Itzulketak"
+
+- id: home
+  translation: "Etxea"
+
+- id: code_copy
+  translation: "kopiatu"
+
+- id: code_copied
+  translation: "kopiatuta!"
