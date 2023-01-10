@@ -13,6 +13,19 @@ enableRobotsTXT: true
 
 params:
   ShowCodeCopyButtons: true
+  
+  # Ikonoak agertzeko, homeInfoParams gehitu behar dut
+  # Hutsik uzten badut, margen bat gehitzen dit 320px-koa
+  # post-entry.css fitxategian bilatu eta komentatu dut
+  homeInfoParams:
+    Title:
+    Content:
+
+  socialIcons:
+  - name: mastodon
+    url: "https://mastodon.eus/@xezpeleta"
+  - name: github
+    url: "https://github.com/xezpeleta"
 
 googleAnalytics: G-ZJRN8P7X6R
 analytics:
