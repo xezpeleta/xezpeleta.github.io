@@ -35,4 +35,5 @@ Bidean hanka sartu edo arazorik aurkituko balu, terminaleko mezuak irakurri eta 
 
 - Horrelako garapen tresnak, garapen prozesuaren demokratizatzea ekarriko du.
 - Hezkuntza arloan, *powerpoint*, txosten, bideo eta bestelako edukiez gain, **irakasle askok haien aplikazio edo tresna propioak sortzeko gaitasuna izango dute**.
+- Jadanik **euskaraz ondo** ulertu eta idazteko gai dela argi dago, gutxienez eredu gisa `Claude 3.5 Sonnet` erabiltzen denean.
 - Nahiz eta Copilot kode itxia izan, eta atzetik ChatGPT edota Claude ereduak erailtzen dituen (komertzialak hauek ere), **kode irekiko alternatibak ez daude urrun**. Momentuz, kodea automatikoki konpletazeko eta edizioak egiteko alternatiba askeak jadanik badaude ([llama.vscode](https://github.com/ggml-org/llama.vscode), [TabNine](https://github.com/codota/TabNine), [Void](https://voideditor.com/), [TabbyML](https://github.com/TabbyML/tabby?tab=readme-ov-file)) eta agente moduko tresnak baita ere ([OpenHands](https://github.com/All-Hands-AI/OpenHands?tab=readme-ov-file))irakasle askok haien aplikazio edo tresna propioak sortzeko gaitasuna izango dute
