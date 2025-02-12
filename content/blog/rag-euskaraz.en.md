@@ -3,6 +3,10 @@ title: "Local RAG in Basque using Tülu 3"
 date: 2024-02-14
 draft: false
 tags: ["llm", "rag", "basque", "ai", "tulu", "ollama"]
+cover:
+    image: "/images/tulu3_workflow.png"
+    alt: "Tulu-3 workflow"
+    caption: "Tulu-3 workflow"
 ---
 
 In recent months, Local LLMs have significantly improved, and some of them perform surprisingly well with Basque language. Among them, I want to highlight [Tülu 3](https://allenai.org/blog/tulu-3-technical) 70B, which shows good results in Basque when using the quantized version (q4_K_M). Until the Latxa instruction model becomes available, this is probably the best option for having conversations or generating text in Basque.

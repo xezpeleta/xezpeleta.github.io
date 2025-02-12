@@ -3,6 +3,10 @@ title: "RAG lokala euskaraz Tülu 3 erabiliz"
 date: 2024-02-14
 draft: false
 tags: ["llm", "rag", "euskara", "ai", "tulu", "ollama"]
+cover:
+    image: "/images/tulu3_workflow.png"
+    alt: "Tulu-3 workflow"
+    caption: "Tulu-3 workflow"
 ---
 
 Azken hilabeteetan LLM eredu lokal eta *askeak* asko hobetu dira, eta horietako batzuk euskaraz ere nahiko ondo moldatzen dira. Horien artean, [Tülu-3](https://allenai.org/blog/tulu-3-technical) 70B nabarmendu nahi nuke, kuantizatutako bertsioa erabilita (q4_K_M) euskaraz emaitza onak ematen baititu. Latxa chat edo instrukzio eredua argitaratu arte, ziurrenik aukera onena da euskarazko elkarrizketak izateko edo testuak sortzeko.
