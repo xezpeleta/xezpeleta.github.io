@@ -1,6 +1,6 @@
 ---
 title: "GitHub Copilot Agent Mode: Garapenerako lankide adimenduna"
-date: 2024-03-26
+date: 2024-02-12
 draft: false
 tags: ["github", "ai", "vscode"]
 cover:

@@ -1,6 +1,6 @@
 ---
 title: "RAG lokala euskaraz Tülu 3 erabiliz"
-date: 2024-02-14
+date: 2024-02-09
 draft: false
 tags: ["llm", "rag", "euskara", "ai", "tulu", "ollama"]
 cover:

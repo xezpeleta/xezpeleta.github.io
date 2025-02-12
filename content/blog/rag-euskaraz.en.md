@@ -1,6 +1,6 @@
 ---
 title: "Local RAG in Basque using Tülu 3"
-date: 2024-02-14
+date: 2024-02-09
 draft: false
 tags: ["llm", "rag", "basque", "ai", "tulu", "ollama"]
 cover:
