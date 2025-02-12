@@ -19,7 +19,7 @@ Agent Mode-k GitHub Copilot-en gaitasunak zabaltzen ditu, kode osatzaile soil ba
 
 Agent Mode-k gaitasun bereziak ditu bere kodea hobetzeko eta erroreak konpontzeko. Bere proposamenak behin eta berriz birfindu ditzake, erroreak identifikatu eta automatikoki konpondu. Terminal komandoak iradoki eta exekutatzeko gai da, eta exekuzio-denborako erroreak aztertu eta konpondu ditzake.
 
-> *Agent moduan, Copilot ez da mugatzen soilik bere irteera hobetzera; irteera horren emaitzak ere aztertzen ditu*
+> *Eta zuk eskatutako ataza osatu arte jarraituko du lanean. Eskatutako ataza soila egin beharrean, orain gai da zehaztu ez diren baina beharrezkoak diren ataza osagarriak inferitzeko. Are gehiago, bere erroreak detektatu ditzake, terminaleko mezuak chat-era kopiatu/itsatsi behar izan gabe.*
 
 Agent moduan, Copilot ez da mugatzen soilik bere irteera hobetzera; irteera horren emaitzak ere aztertzen ditu. Eta zuk eskatutako ataza osatu arte jarraituko du lanean. Eskatutako ataza soila egin beharrean, orain gai da zehaztu ez diren baina beharrezkoak diren ataza osagarriak inferitzeko. Are gehiago, bere erroreak detektatu ditzake, terminaleko mezuak chat-era kopiatu/itsatsi behar izan gabe.
 
