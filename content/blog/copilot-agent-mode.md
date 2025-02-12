@@ -3,7 +3,10 @@ title: "GitHub Copilot Agent Mode: Garapenerako lankide adimenduna"
 date: 2024-03-26
 draft: false
 tags: ["github", "ai", "vscode"]
-image: "/images/copilot-agent-mode.png"
+cover:
+    image: "/images/copilot-agent-mode.png"
+    alt: "GitHub Copilot Agent Mode"
+    caption: "The agent awakens"
 ---
 
 GitHub Copilot-ek aurrerapen garrantzitsu bat ekarri du: [Agent Mode](https://github.blog/news-insights/product-news/github-copilot-the-agent-awakens/) delakoa. Ezaugarri berri honekin, VS Code editoreko testu interfazea erabiliz, zure proiektuko fitxategiak aztertu, aldatu eta exekutatu ditzake modu autonomoan.
