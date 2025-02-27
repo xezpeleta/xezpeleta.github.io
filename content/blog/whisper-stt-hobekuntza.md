@@ -11,7 +11,7 @@ cover:
 
 Hizketa-ezagutzaile (STT, *speech-to-text*) motako ereduek ahots-grabazioak testu idatzi bihurtzeko aukera ematen dute, hizkuntza naturalaren prozesamendu automatikoan oinarrituta. Teknologia honek gero eta garrantzi handiagoa hartzen ari da interfaze digitaletan.
 
-2022. urteaz geroztik, [Mozilla Common Voice](https://commonvoice.mozilla.org/) datu-bilduma erabiliz, jatorrizko [Whisper](https://openai.com/index/whisper/) STT eredua euskararako doitzen aritu naiz, doitze fin teknika (ingelesez *fine-tuning*) bidez. Jatorrizko ereduekin alderatuta, emaitzetan hobekuntza nabarmenak ikusi ditut. Gainera, Mozilla Common Voice ekimena hazten joan den heinean, ereduaren kalitatea are gehiago hobetu da.
+2022\. urteaz geroztik, [Mozilla Common Voice](https://commonvoice.mozilla.org/) datu-bilduma erabiliz, jatorrizko [Whisper](https://openai.com/index/whisper/) STT eredua euskararako doitzen aritu naiz, doitze fin teknika (ingelesez *fine-tuning*) bidez. Jatorrizko ereduekin alderatuta, emaitzetan hobekuntza nabarmenak ikusi ditut. Gainera, Mozilla Common Voice ekimena hazten joan den heinean, ereduaren kalitatea are gehiago hobetu da.
 
 > Hala ere, argi geratu da kalitate-maila onargarri bat lortzeko ahots-datu gehiagoren premia dagoela.
 
