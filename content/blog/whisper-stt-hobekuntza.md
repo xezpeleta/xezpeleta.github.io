@@ -5,7 +5,7 @@ draft: false
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:
     image: "/images/stt.png"
-    alt: "Speech-to-text
+    alt: "Speech-to-text"
     caption: "Euskara hortzetik hitzera"
 ---
 
