@@ -9,45 +9,45 @@ cover:
     caption: "Euskara hortzetik hitzera"
 ---
 
-2022tik hasita, [Mozilla Common Voice](https://commonvoice.mozilla.org/) datu sorta erabiliz, jatorrizko [Whisper](https://openai.com/index/whisper/) STT (*speech-to-text*) eredua trebatzen joan naiz euskaraz hobeto egiteko ([*fine-tuning*](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) bat eginez). *STT* ereduek ahotsa testu bihurtzen dute, hizkuntza naturalaren prozesamendu automatikoan oinarrituta.
+Hizketa-ezagutzaile (STT, *speech-to-text*) motako ereduek ahots-grabazioak testu idatzi bihurtzeko aukera ematen dute, hizkuntza naturalaren prozesamendu automatikoan oinarrituta. Teknologia honek gero eta garrantzi handiagoa hartzen ari da interfaze digitaletan.
 
-Jatorrizko ereduekin alderatuta, emaitza asko hobetzen zela ikusten zen. Eta, Mozilla Common Voice ekimena handitu hala, eredua askoz hobeto zebilen.
+2022. urteaz geroztik, [Mozilla Common Voice](https://commonvoice.mozilla.org/) datu-bilduma erabiliz, jatorrizko [Whisper](https://openai.com/index/whisper/) STT eredua euskararako doitzen aritu naiz, doitze fin teknika (ingelesez *fine-tuning*) bidez. Jatorrizko ereduekin alderatuta, emaitzetan hobekuntza nabarmenak ikusi ditut. Gainera, Mozilla Common Voice ekimena hazten joan den heinean, ereduaren kalitatea are gehiago hobetu da.
 
-> Baina aldi berean, kalitate maila minimo bat izateko, ahots datu gehiagoren beharra ere garbi geratzen zen.
+> Hala ere, argi geratu da kalitate-maila onargarri bat lortzeko ahots-datu gehiagoren premia dagoela.
 
-Duela aste batzuk, [HiTZ-Aholab ikerketa zentroko lan berri bat](https://www.isca-archive.org/iberspeech_2024/herranz24_iberspeech.pdf) aurkitu nuen, non *Nvidia NeMo* eredu elebidun bat sortu duten hainbat datu sorta ezberdin erabiliz: Mozilla Common Voice, OpenSLR eta Eusko Legebiltzarreko korpusa.
+Duela aste batzuk, [HiTZ-Aholab ikerketa zentroak egindako lan berri bat](https://www.isca-archive.org/iberspeech_2024/herranz24_iberspeech.pdf) aurkitu nuen. Bertan, *Nvidia NeMo* eredu elebidun bat sortu dute hainbat datu-bilduma ezberdin baliatuz: Mozilla Common Voice, OpenSLR eta Eusko Legebiltzarreko korpusa.
 
-Lan honek inspiratuta, datu bilduma bera erabiltzea erabaki dut Whisper eredua hobetzeko. Emaitzak nabarmen hobetu dira; adibide modura, `whisper-small-eu` ereduaren **WER (Word Error Rate) errorea %11.84tik %7.63ra jaitsi da**.
+Lan horrek bultzatuta, datu-bilduma bera erabiltzea erabaki dut Whisper eredua hobetzeko. Emaitzak nabarmen hobetu dira; adibidez, `whisper-small-eu` ereduaren **hitz-errore tasa (WER, Word Error Rate) %11,84tik %7,63ra jaitsi da**.
 
-## Datu sortak
+## Datu-bildumak
 
-HiTZ-Aholab txosten horretan oinarrituta, honako datu bilduma hauek erabili ditut:
+HiTZ-Aholab txostenean oinarrituta, honako datu-sortak erabili ditut:
 
 - Mozilla Common Voice
 - OpenSLR
-- Basque Parliament
+- Eusko Legebiltzarreko korpusa
 
-Dataset hauen konbinazioak aniztasun handiagoa eskaintzen du, bai hizlarien aldetik, bai grabazio kalitatearen aldetik, eta baita testuinguru eta gai desberdinen aldetik ere.
+Datu-bilduma hauen konbinazioak aniztasun handiagoa eskaintzen du, bai hizlarien aldetik, bai grabazio-kalitatearen aldetik, baita testuinguru eta gai ezberdinen aldetik ere.
 
-Gainera, gauzak errezteko, datu hauek modu errezean erabiltzeko prest utzi ditu Asier Herranz ikerlariak: [asierhv/composite_corpus_eu_v2.1](https://huggingface.co/datasets/asierhv/composite_corpus_eu_v2.1). Guztira, **entrenamendu datu kopurua: 675.98 ordu** ditugu eskuragarri.
+Gainera, Asier Herranz ikerlariak datu hauek modu errazean erabiltzeko prestatu ditu: [asierhv/composite_corpus_eu_v2.1](https://huggingface.co/datasets/asierhv/composite_corpus_eu_v2.1). Guztira, **675,98 orduko entrenamendu-datuak** ditugu eskuragarri.
 
 ## Emaitzak
 
 Eredu berrien emaitzak:
-- `whisper-large-v3-eu` eredua eguneratu da, **WER: 4.84** (lehenago: 7.21).
-- `whisper-medium-eu` eredua eguneratu da, **WER: 7.14** (lehenago: 8.80)
-- `whisper-small-eu` eredua eguneratu da, **WER: 7.63** (lehenago: 11.83)
-- `whisper-base-eu` eredua (berria), **WER: 10.78**
-- `whisper-tiny-eu` eredua (berria), **WER: 13.56**
+- `whisper-large-v3-eu` eredua eguneratu da, **WER: %4,84** (lehenago: %7,21).
+- `whisper-medium-eu` eredua eguneratu da, **WER: %7,14** (lehenago: %8,80)
+- `whisper-small-eu` eredua eguneratu da, **WER: %7,63** (lehenago: %11,83)
+- `whisper-base-eu` eredua (berria), **WER: %10,78**
+- `whisper-tiny-eu` eredua (berria), **WER: %13,56**
 
-*Oharra: geroz eta WER balio txikiagoa, hobea.*
+*Oharra: hitz-errore tasa (WER) zenbat eta txikiagoa izan, orduan eta hobea da eredua.*
 
-Sortutako euskarazko **Whisper** ereduak [eskuragarri dituzue hemen](https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning-67b05797b023991df1715a51)
+Sortutako euskarazko **Whisper** ereduak [hemen eskuragarri daude](https://huggingface.co/collections/xezpeleta/whisper-basque-fine-tuning-67b05797b023991df1715a51).
 
-Ebaluazio hauek `Mozilla Common Voice 18.0` dataset-aren `test` zatia erabiliz egin dira.
+Ebaluazio hauek `Mozilla Common Voice 18.0` datu-sortaren `test` zatia erabiliz egin dira.
 
 ## Antzeko alternatibak
 
-- Lehen aipatutako ikerketaz gain, [Vicomtech-ek argitaratu duen](https://www.isca-archive.org/iberspeech_2024/vasquezcorrea24_iberspeech.pdf) beste lan hau ere interesgarria da. Ildo beretik, eta datu sorta berdina erabiliz, euskara-gaztelerazko *Whisper* eredua trebatu dute eta **emaitza bikainak** lortu dituzte. Tamalez, eredu hauek **ez dituzte eskuragarri utzi** (nik dakidala).
-- [HiTZ/stt_eu_conformer_transducer_large](https://huggingface.co/HiTZ/stt_eu_conformer_transducer_large) Basque Speech-to-Text model Conformer-Transducer. Nvidia NeMo ereduan oinarrituta eta **emaitza oso onak** dituenak: 2.79% WER.
-- [Elhuyar Aditu](https://aditu.eus/) ere transkripzio automatikoak egiten dituen *hizketa ezagutzailea* da. Ez da software askea eta ordainpekoa da, bainan haien webgunetik probatzeko aukera eskeintzen dute.
+- Lehen aipatutako ikerketaz gain, [Vicomtech-ek argitaratutako](https://www.isca-archive.org/iberspeech_2024/vasquezcorrea24_iberspeech.pdf) beste lan hau ere azpimarragarria da. Ildo beretik, eta datu-sorta bera erabiliz, euskara-gaztelaniazko *Whisper* eredua trebatu dute eta **emaitza bikainak** lortu dituzte. Zoritxarrez, eredu hauek **ez dituzte publikoki eskuragarri jarri** (nik dakidala).
+- [HiTZ/stt_eu_conformer_transducer_large](https://huggingface.co/HiTZ/stt_eu_conformer_transducer_large): Euskararako hizketa-testu bihurtze eredua, Conformer-Transducer arkitekturan oinarritua. Nvidia NeMo teknologia erabiltzen du eta **oso emaitza onak** lortzen ditu: %2,79ko WER.
+- [Elhuyar Aditu](https://aditu.eus/) ere transkripzio automatikoak egiten dituen hizketa-ezagutzaile bat da. Ez da software librea eta ordainpekoa da, baina haien webgunetik probatzeko aukera eskaintzen dute.
