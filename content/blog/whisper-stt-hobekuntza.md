@@ -1,6 +1,6 @@
 ---
 title: "Euskara hortzetik hitzera: transkripzio ereduak hobetzen"
-date: 2024-03-27
+date: 2024-02-27
 draft: false
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:
