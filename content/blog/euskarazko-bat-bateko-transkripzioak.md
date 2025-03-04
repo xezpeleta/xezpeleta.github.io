@@ -17,7 +17,7 @@ Teknologia hauek irisgarritasun-neurri gisa oso baliagarriak dira. Ez soilik ent
 
 ## Euskaraz horrelako zeozer posible al da?
 
-Orain arte ikusi ditudan adibideak ingelesez egiten dira. Duela gutxi euskarazko [Whisper eredu berriak argitaratu nituela]{{< ref "whisper-stt-hobekuntza" >}} aprobetxatuz, esperimentu txiki bat egitea erabaki nuen. `whisper-tiny-eu` bezalako eredu txiki eta arin bat erabiliz, gai izango ote zen euskarazko bat-bateko transkripzio automatikoa egiteko?
+Orain arte ikusi ditudan adibideak ingelesez egiten dira. Duela gutxi euskarazko [Whisper eredu berriak argitaratu nituela]({{< ref "whisper-stt-hobekuntza" >}}) aprobetxatuz, esperimentu txiki bat egitea erabaki nuen. `whisper-tiny-eu` bezalako eredu txiki eta arin bat erabiliz, gai izango ote zen euskarazko bat-bateko transkripzio automatikoa egiteko?
 
 ## *Whisper-streaming* oinarri gisa
 
