@@ -1,6 +1,6 @@
 ---
 title: "Basque from speech to text: improving transcription models"
-date: 2024-03-20
+date: 2024-02-27
 draft: false
 tags: ["ai", "basque", "stt", "whisper"]
 cover:
