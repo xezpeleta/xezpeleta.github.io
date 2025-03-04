@@ -9,7 +9,7 @@ cover:
     caption: "Zuzeneko trankripzioa irudikatzeko animazioa (Claude 3.7)"
 ---
 
-Nazioarteko kongresu eta jardunaldietan, geroz eta ohikoagoak dira bat-bateko transkripzio automatikoak eskuragarri izatea zuzeneko hitzaldietan.
+Nazioarteko kongresu eta jardunaldietan, geroz eta ohikoago da bat-bateko transkripzio automatikoak eskuragarri izatea zuzeneko hitzaldietan.
 
 ![London Bett talk with live transcriptions](/images/london_bett.jpg)
 
@@ -17,7 +17,7 @@ Teknologia hauek irisgarritasun-neurri gisa oso baliagarriak dira. Ez soilik ent
 
 ## Euskaraz horrelako zeozer posible al da?
 
-Orain arte ikusi ditudan adibideak ingelesez egiten dira. Duela gutxi euskarazko [Whisper eredu berriak argitaratu nituela]({{< ref "whisper-stt-hobekuntza" >}}) aprobetxatuz, esperimentu txiki bat egitea erabaki nuen. `whisper-tiny-eu` bezalako eredu txiki eta arin bat erabiliz, gai izango ote zen euskarazko bat-bateko transkripzio automatikoa egiteko?
+Orain arte ikusi ditudan adibideak ingelesez egiten dira. Duela gutxi euskarazko [Whisper eredu berriak argitaratu nituela]({{< ref "whisper-stt-hobekuntza" >}}) aprobetxatuz, esperimentu txiki bat egitea erabaki nuen. `whisper-tiny-eu` bezalako eredu txiki eta arin bat erabiliz, gai izango ote gara euskarazko bat-bateko transkripzio automatikoa egiteko?
 
 ## *Whisper-streaming* oinarri gisa
 
