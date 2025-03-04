@@ -1,6 +1,6 @@
 ---
 title: "Euskarazko bat-bateko transkripzioak"
-date: 2024-03-
+date: 2024-03-04
 draft: false
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:
