@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <style>
+    @keyframes soundWave {
+      0% { transform: scale(0.8); opacity: 0.3; }
+      50% { transform: scale(1.1); opacity: 0.9; }
+      100% { transform: scale(0.8); opacity: 0.3; }
+    }
+    
+    @keyframes typing {
+      0% { width: 0; }
+      100% { width: 200px; }
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    
+    .sound-wave {
+      animation: soundWave 2s infinite;
+      transform-origin: center;
+    }
+    
+    .sound-wave-2 {
+      animation: soundWave 2s infinite 0.3s;
+    }
+    
+    .sound-wave-3 {
+      animation: soundWave 2s infinite 0.6s;
+    }
+    
+    .typing-text {
+      animation: typing 4s steps(25) infinite;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    
+    .cursor {
+      animation: blink 0.7s infinite;
+    }
+    
+    .key {
+      animation: fadeIn 0.3s;
+    }
+    
+    .key1 { animation-delay: 0.2s; }
+    .key2 { animation-delay: 0.4s; }
+    .key3 { animation-delay: 0.6s; }
+    .key4 { animation-delay: 0.8s; }
+    .key5 { animation-delay: 1.0s; }
+    .key6 { animation-delay: 1.2s; }
+    .key7 { animation-delay: 1.4s; }
+    .key8 { animation-delay: 1.6s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="#F5F5F5"/>
+  
+  <!-- Divider line -->
+  <line x1="400" y1="100" x2="400" y2="300" stroke="#DDD" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Left side: Voice input -->
+  <g transform="translate(200, 200)">
+    <!-- Person silhouette -->
+    <circle cx="0" cy="-50" r="30" fill="#D52B1E"/>
+    <path d="M-15,-25 C-30,0 -30,40 0,60 C30,40 30,0 15,-25" fill="#D52B1E"/>
+    
+    <!-- Microphone -->
+    <rect x="-7" y="-65" width="14" height="25" rx="7" fill="#333"/>
+    <circle cx="0" cy="-65" r="7" fill="#333"/>
+    
+    <!-- Sound waves -->
+    <circle class="sound-wave" cx="0" cy="-50" r="40" fill="none" stroke="#009B48" stroke-width="2"/>
+    <circle class="sound-wave sound-wave-2" cx="0" cy="-50" r="55" fill="none" stroke="#009B48" stroke-width="2"/>
+    <circle class="sound-wave sound-wave-3" cx="0" cy="-50" r="70" fill="none" stroke="#009B48" stroke-width="2"/>
+    
+    <!-- Basque text bubble -->
+    <path d="M40,-70 L100,-70 Q110,-70 110,-60 L110,-20 Q110,-10 100,-10 L50,-10 L40,0 L30,-10 L40,-10 Q30,-10 30,-20 L30,-60 Q30,-70 40,-70 Z" fill="white" stroke="#333" stroke-width="1"/>
+    <text x="70" y="-50" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Kaixo! Euskaraz</text>
+    <text x="70" y="-35" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">hitz egiten dut</text>
+  </g>
+  
+  <!-- Right side: Typing/Transcription -->
+  <g transform="translate(600, 200)">
+    <!-- Computer/Device -->
+    <rect x="-80" y="-70" width="160" height="100" rx="5" fill="#EEE" stroke="#333" stroke-width="2"/>
+    <rect x="-70" y="-60" width="140" height="80" fill="white" stroke="#CCC" stroke-width="1"/>
+    
+    <!-- Keyboard -->
+    <rect x="-70" y="30" width="140" height="40" rx="5" fill="#DDD" stroke="#333" stroke-width="1"/>
+    
+    <!-- Typing keys animation -->
+    <rect class="key key1" x="-60" y="35" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key2" x="-40" y="35" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key3" x="-20" y="35" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key4" x="0" y="35" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key5" x="20" y="35" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key6" x="40" y="35" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key7" x="-60" y="50" width="15" height="15" rx="2" fill="#BBB"/>
+    <rect class="key key8" x="-40" y="50" width="55" height="15" rx="2" fill="#BBB"/>
+    
+    <!-- Text being typed -->
+    <rect x="-65" y="-45" width="130" height="60" fill="white"/>
+    <text x="-65" y="-25">
+      <tspan class="typing-text" x="-65" y="-25" font-family="Arial" font-size="12" fill="#333">Kaixo! Euskaraz hitz</tspan>
+    </text>
+    <text x="-65" y="-5">
+      <tspan class="typing-text" x="-65" y="-5" font-family="Arial" font-size="12" fill="#333">egiten dut</tspan>
+    </text>
+    <text class="cursor" x="40" y="-5" font-family="monospace" font-size="16" fill="#333">|</text>
+  </g>
+  
+  <!-- Flowing data between sides -->
+  <path d="M240 180 C 320 180, 320 220, 400 220 C 480 220, 480 180, 560 180" fill="none" stroke="#009B48" stroke-width="2" stroke-dasharray="5,3">
+    <animate attributeName="stroke-dashoffset" from="8" to="0" dur="0.5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Title -->
+  <text x="400" y="350" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Real-Time Basque Transcription</text>
+  
+  <!-- Lauburu symbol -->
+  <g transform="translate(400, 50) scale(0.4)">
+    <path d="M0,0 C10,-20 40,-20 40,0 C40,20 10,20 0,0" fill="#D52B1E" transform="rotate(0)"/>
+    <path d="M0,0 C10,-20 40,-20 40,0 C40,20 10,20 0,0" fill="#D52B1E" transform="rotate(90)"/>
+    <path d="M0,0 C10,-20 40,-20 40,0 C40,20 10,20 0,0" fill="#D52B1E" transform="rotate(180)"/>
+    <path d="M0,0 C10,-20 40,-20 40,0 C40,20 10,20 0,0" fill="#D52B1E" transform="rotate(270)"/>
+  </g>
+</svg>
