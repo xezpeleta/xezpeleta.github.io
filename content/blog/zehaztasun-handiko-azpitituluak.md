@@ -1,7 +1,7 @@
 ---
 title: "Zehaztasun handiko azpitituluak"
 date: 2024-03-05
-draft: false
+draft: true
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:
     image: "/images/basque-transcription-animation.svg"
