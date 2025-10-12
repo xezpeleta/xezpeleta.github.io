@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hugo on Xabi Ezpeleta</title><link>https://xezpeleta.github.io/tags/hugo/</link><description>Recent content in Hugo on Xabi Ezpeleta</description><generator>Hugo -- 0.145.0</generator><language>eu</language><copyright>Copyright © 2021, Xabier Ezpeleta. License CC BY-SA 4.0.</copyright><lastBuildDate>Fri, 05 Nov 2021 20:05:58 +0200</lastBuildDate><atom:link href="https://xezpeleta.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Mila esker, Hugo</title><link>https://xezpeleta.github.io/blog/mila_esker_hugo/</link><pubDate>Fri, 05 Nov 2021 20:05:58 +0200</pubDate><guid>https://xezpeleta.github.io/blog/mila_esker_hugo/</guid><description>&lt;p>Blog berria sortzen &lt;a href="https://gohugo.io">Hugo&lt;/a>k lagundu dit. &lt;a href="https://www.cloudflare.com/learning/performance/static-site-generator/">&lt;strong>Webgune estatikoak&lt;/strong>&lt;/a> sortzeko tresna bikaina da; &lt;a href="https://jekyllrb.com/">Jekyll&lt;/a>, &lt;a href="https://www.gatsbyjs.com/">Gatsby&lt;/a> edo &lt;a href="https://ghost.org/">Ghost&lt;/a> bezalako zeozer dela esan daiteke.&lt;/p>
-&lt;p>Hauek dira bere abantaila nagusiak:&lt;/p>
-&lt;ul>
-&lt;li>Azkartasuna&lt;/li>
-&lt;li>Malgutasuna&lt;/li>
-&lt;li>Erreztasuna&lt;/li>
-&lt;li>Iturri formatu askorekin bateragarria (Markdown, HTML, AsciiDoc, RST, etab.)&lt;/li>
-&lt;li>Eduki eleanitzak sortzeko gaitasuna&lt;/li>
-&lt;/ul>
-&lt;p>Besteak beste, webguneak, blogak edota dokumentazio proiektuak argitaratzeko erabili dezakegu &lt;em>Hugo&lt;/em>.&lt;/p>
-&lt;p>&lt;img alt="Hugoren webgunea" loading="lazy" src="https://xezpeleta.github.io/images/2021-11-02-21-20-04.png">&lt;/p>
-&lt;h2 id="instalazioa">Instalazioa&lt;/h2>
-&lt;p>Hugo instalatzeko aukera ezberdinak ditugu. Debian edo Ubuntu bada zure sistema, &lt;a href="https://github.com/gohugoio/hugo/releases">Hugoren errepositoriotik&lt;/a> &lt;strong>DEB paketea&lt;/strong> deskargatzea eta instalatzea gomendatzen dizut.&lt;/p></description></item><item><title>Blog berria</title><link>https://xezpeleta.github.io/blog/blog-berria/</link><pubDate>Tue, 26 Oct 2021 21:33:11 +0200</pubDate><guid>https://xezpeleta.github.io/blog/blog-berria/</guid><description>&lt;p>Kaixo! Blog hau sortzea bururatu zait, ikusten eta ikasten ditudan hainbat teknologien inguruan hitz egiteko eta, ahal bada, praktikan jartzeko.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Hugo on Xabi Ezpeleta</title><link>https://xezpeleta.github.io/tags/hugo/</link><description>Recent content in Hugo on Xabi Ezpeleta</description><generator>Hugo -- 0.151.0</generator><language>eu</language><copyright>Copyright © 2021, Xabier Ezpeleta. License CC BY-SA 4.0.</copyright><lastBuildDate>Fri, 05 Nov 2021 20:05:58 +0200</lastBuildDate><atom:link href="https://xezpeleta.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Mila esker, Hugo</title><link>https://xezpeleta.github.io/blog/mila_esker_hugo/</link><pubDate>Fri, 05 Nov 2021 20:05:58 +0200</pubDate><guid>https://xezpeleta.github.io/blog/mila_esker_hugo/</guid><description>&lt;p&gt;Blog berria sortzen &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt;k lagundu dit. &lt;a href="https://www.cloudflare.com/learning/performance/static-site-generator/"&gt;&lt;strong&gt;Webgune estatikoak&lt;/strong&gt;&lt;/a&gt; sortzeko tresna bikaina da; &lt;a href="https://jekyllrb.com/"&gt;Jekyll&lt;/a&gt;, &lt;a href="https://www.gatsbyjs.com/"&gt;Gatsby&lt;/a&gt; edo &lt;a href="https://ghost.org/"&gt;Ghost&lt;/a&gt; bezalako zeozer dela esan daiteke.&lt;/p&gt;
+&lt;p&gt;Hauek dira bere abantaila nagusiak:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Azkartasuna&lt;/li&gt;
+&lt;li&gt;Malgutasuna&lt;/li&gt;
+&lt;li&gt;Erreztasuna&lt;/li&gt;
+&lt;li&gt;Iturri formatu askorekin bateragarria (Markdown, HTML, AsciiDoc, RST, etab.)&lt;/li&gt;
+&lt;li&gt;Eduki eleanitzak sortzeko gaitasuna&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Besteak beste, webguneak, blogak edota dokumentazio proiektuak argitaratzeko erabili dezakegu &lt;em&gt;Hugo&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hugoren webgunea" loading="lazy" src="https://xezpeleta.github.io/images/2021-11-02-21-20-04.png"&gt;&lt;/p&gt;
+&lt;h2 id="instalazioa"&gt;Instalazioa&lt;/h2&gt;
+&lt;p&gt;Hugo instalatzeko aukera ezberdinak ditugu. Debian edo Ubuntu bada zure sistema, &lt;a href="https://github.com/gohugoio/hugo/releases"&gt;Hugoren errepositoriotik&lt;/a&gt; &lt;strong&gt;DEB paketea&lt;/strong&gt; deskargatzea eta instalatzea gomendatzen dizut.&lt;/p&gt;</description></item><item><title>Blog berria</title><link>https://xezpeleta.github.io/blog/blog-berria/</link><pubDate>Tue, 26 Oct 2021 21:33:11 +0200</pubDate><guid>https://xezpeleta.github.io/blog/blog-berria/</guid><description>&lt;p&gt;Kaixo! Blog hau sortzea bururatu zait, ikusten eta ikasten ditudan hainbat teknologien inguruan hitz egiteko eta, ahal bada, praktikan jartzeko.&lt;/p&gt;</description></item></channel></rss>
