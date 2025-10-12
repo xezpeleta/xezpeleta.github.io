@@ -1,6 +1,6 @@
 ---
 title: "Kimu"
-date: 2024-02-09
+date: 2024-10-13
 draft: false
 tags: ["llm", "orai", "basque", "ai", "gemma", "llama.cpp", "ollama"]
 ---
