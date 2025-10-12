@@ -1,7 +1,7 @@
 ---
 title: "Deseskalatzeko momentua iritsi al da?"
 date: 2024-03-04
-draft: false
+draft: true
 tags: ["docker", "heroku", "kubernetes", "sablier"]
 cover:
     image: "/images/cover_scale_to_zero.png"
