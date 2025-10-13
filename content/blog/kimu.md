@@ -13,9 +13,9 @@ Kimu-ko bi ereduak GGUF formatura bihurtu ditut eta [Hugging Face biltegian jarr
 
 ![Kimu ereduak Hugging Face biltegian](/images/hf_itzune_kimu.png)
 
-Aldi berean, [@urtzai](https://mastodon.eus/@urtzai)-k eredu hauek [Ollama-ko eredu katalogoan](https://ollama.com/itzune/kimu) argitaratu ditu, Ollama bidez erabilera errazagoa eginez:
+Aldi berean, [@urtzai](https://mastodon.eus/@urtzai)-k eredu hauek [Ollama-ko eredu katalogoan](https://ollama.com/itzune/kimu) argitaratu ditu, Ollama bidez erabilera errazagoa eginez.
 
-Soilik Ollama instalatu, eta honako agindu hau exekutatuz,
+Soilik Ollama instalatu, eta honako agindu hau exekutatuz, martxan jar dezakegu:
 
 ```bash
 ollama run itzune/kimu:2b
@@ -23,6 +23,9 @@ ollama run itzune/kimu:2b
 
 ![Kimu ereduak Ollama biltegian](/images/ollama_itzune_kimu.png)
 
+
 > Urrats garrantzitsua Orai-k eman duena; azkenean badugu euskaraz ongi egiten duen eredu txiki eta arina.
 
 LLM-en aplikazioen esparruan euskara atzean ez gelditzeko ezinbesteko urratsa!
+
+![Kimu 2B ereduarekin lehen probak](/images/kimu_test.png)
