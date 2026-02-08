@@ -3,6 +3,10 @@ title: "Kimu"
 date: 2024-10-13
 draft: false
 tags: ["llm", "orai", "basque", "ai", "gemma", "llama.cpp", "ollama"]
+cover:
+    image: "/images/kimu-cover.png"
+    alt: "Kimu eredua"
+    caption: "AI generated image"
 ---
 
 Kimu izeneko hizkuntza eredua [argitaratu berri du](https://www.orai.eus/eu/bloga/zerbitzari-propioetan-instalatzeko-moduko-euskarazko-txatbot-berria-kimu) [Orai](https://www.orai.eus/)-k.

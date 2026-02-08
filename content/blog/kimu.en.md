@@ -3,6 +3,10 @@ title: "Kimu"
 date: 2024-10-13
 draft: false
 tags: ["llm", "orai", "basque", "ai", "gemma", "llama.cpp", "ollama"]
+cover:
+    image: "/images/kimu-cover.png"
+    alt: "Kimu eredua"
+    caption: "AI generated image"
 ---
 
 [Orai](https://www.orai.eus/) has just released a language model called [Kimu](https://www.orai.eus/eu/bloga/zerbitzari-propioetan-instalatzeko-moduko-euskarazko-txatbot-berria-kimu).
