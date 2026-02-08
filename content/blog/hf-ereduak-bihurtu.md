@@ -27,7 +27,7 @@ git clone https://github.com/ggml-org/llama.cpp.git
 
 Ingurunea prestatu eta beharrezko dependentziak instalatzeko, `uv` erabiliko dugu. Ez baduzu instalatu, [instalatu beharko duzu](https://docs.astral.sh/uv/getting-started/installation/).
 
-```
+```sh
 # Sortu ingurune birtuala
 cd llama.cpp
 uv venv
@@ -43,7 +43,7 @@ source .venv/bin/activate
 
 Kasu honetan, ereduak bihurtzeko ez dugu behar *llama.cpp* osoa instalatzea; soilik bihurketa tresnak erabili ahal izateko liburutegiak beharko ditugu:
 
-```
+```sh
 uv pip install -r requirements/requirements-convert_hf_to_gguf.txt
 ```
 
@@ -54,7 +54,7 @@ gure gguf fitxategia sortuko digu:
 
 Kasu honetan, `HiTZ/Latxa-Qwen3-VL-4B-Instruct` ereduaren 4B bertsioa bihurtuko dugu, `f16` eta `q8_0` kuantizazioekin.
 
-```
+```sh
 # F16
 uv run convert_hf_to_gguf.py HiTZ/Latxa-Qwen3-VL-4B-Instruct --remote --outtype f16
 
@@ -66,12 +66,12 @@ Agindu hauek gguf fitxategiak sortuko dizkigu (adibidez `HiTZ-Latxa-Qwen3-VL-4B-
 
 ## Eredu multimodalentzako (VL) `mmproj` irudi prozesatzailea
 
-VL motako eredue multimodalei (adibidez Latxa VL ereduak) irudiak pasa ahal izateko, irudi kodifikatzailea ere beharko dugu.
+VL motako eredu multimodalei (adibidez Latxa VL ereduak) irudiak pasa ahal izateko, irudi kodifikatzailea ere beharko dugu.
 `mmproj` izeneko fitxategiak izan ohi dira, ereduaren pisuekin batera elkarbanatu ohi direnak. Jatorrizkoa deskargatu dezakegu eta erabili (kasu honetan, [Qwen ereduarena](https://huggingface.co/Qwen/Qwen3-VL-4B-Instruct-GGUF/blob/main/mmproj-Qwen3VL-4B-Instruct-Q8_0.gguf)).
 
 Hala ere, fitxategi hau ere guk geuk sortu dezkegu, bihurketa scripta bera erabilita eta `--mmproj` parametroa pasata.
 
-```
+```sh
 # Sortu mmproj fitxategia `--mmproj` gehituta
 uv run convert_hf_to_gguf.py HiTZ/Latxa-Qwen3-VL-2B-Instruct --remote --outfile mmproj-HiTZ-Latxa-Qwen3-VL-2B-Instruct-q8_0.gguf --outtype q8_0 --mmproj
 ```
@@ -80,7 +80,8 @@ uv run convert_hf_to_gguf.py HiTZ/Latxa-Qwen3-VL-2B-Instruct --remote --outfile 
 
 Bestelako kuantizazioak lortu nahi ezkero, Llama.cpp instalazio urratsak jarraitu beharko dituzu eta `llama-quantize` agindua erabili.
 
-```
+```sh
+# Kuantizatu Q4_K_M bezala
 ./llama-quantize ggml-model-f16.gguf ggml-model-Q4_K_M.gguf Q4_K_M
 ```
 
@@ -93,7 +94,7 @@ Behin gure gguf fitxategiak sortuta, `llama.cpp` erabiliz ereduak exekutatu ditz
 
 Honetarako bai, *llama.cpp* [instalatu beharko dugu](https://github.com/ggml-org/llama.cpp/blob/master/docs/install.md).
 
-```
+```sh
 # Exekutatu llama-cli gure ereduarekin
 llama-cli -m Orai-Kimu-9B-GGUF-Q4_0.gguf
 ```
@@ -102,7 +103,7 @@ Agindu honek terminalean bertan proba azkarrak egiteko aukera emango digu.
 
 Nik nahiago, ordea, OpenAI APIarekin bateragarria den zerbitzaria exekutatu, web interfazea eta guzti!
 
-```
+```sh
 llama-server \
     --host localhost \
     --port 8000 \
@@ -113,7 +114,7 @@ Dena ondo badabil, `http://localhost:8000` helbidean sartu eta hor ikusiko duzu 
 
 Ereduak *HuggingFace*-en argitaratuak badaude, zuzenean bertatik exekutatu ditzakegu eskuz deskargatu gabe `-hf` parametroa erabiliz:
 
-```
+```sh
 llama-server
     --host localhost \
     --port 8000 \
@@ -125,7 +126,7 @@ llama-server
 Lehen aipatu bezala, eredu multimodalek (VL motakoak) duten berezitasuna irudiak prozesatzeko gaitasuna da. Horretarako, `mmproj` fitxategia zehaztea ezinbestekoa da:
 
 
-```
+```sh
 llama-server --host localhost --port 8000 \
       --model models/Qwen3VL/Qwen3-VL-8B-Instruct-UD-Q4_K_XL.gguf \
       --mmproj models/Qwen3VL/mmproj-F16.gguf \
