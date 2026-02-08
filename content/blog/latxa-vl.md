@@ -1,12 +1,12 @@
 ---
-title: "Latxa Qwen3 VL 4B eredua"
+title: "Latxa VL eredu berriak"
 date: 2026-02-07
 draft: false
 tags: ["llm", "hitz", "ai", "qwen", "euskarazko ereduak"]
 cover:
     image: "/images/latxa-vl-cover.png"
     alt: "Latxa VL eredua"
-    caption: "AI generated image"
+    caption: "Latxa VL"
 ---
 
 Duela gutxi HiTZ zentroak [Latxa VL](https://huggingface.co/collections/HiTZ/latxa-vl) ereduak argitaratu zituen. Eredu hauek Qwen3-VL ereduetan oinarrituak daude eta ikusmenerako gaitasuna dute.
