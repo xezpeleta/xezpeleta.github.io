@@ -33,7 +33,7 @@ Aldiz, Qwen3-VL ama eredua bezala, Latxa VL bikaina da OCR gisa erabiltzeko. Hau
 
 Kasu honetan, ticket baten argazkia eman diot eta bertako informazio guztia eman diezadala eskatu diot.
 
-![Ticket demo](/images/ticket-demo.jpeg)
+![Ticket demo](/images/ticket_demo.jpeg)
 
 Hau izan da bere erantzuna:
 
