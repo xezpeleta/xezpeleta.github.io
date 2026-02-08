@@ -103,6 +103,15 @@ Structured output facilitates the use of tools. Thus, we can configure an MCP se
 I have verified that it calls these tools correctly but, unfortunately, in the tests I have done, the tool usage gets stuck repeating itself over and over again, without knowing when to stop.
 
 
+## Models available in GGUF format
+
+I have converted the Latxa VL models to GGUF format and made them available in the [**Itzune** initiative space](https://huggingface.co/collections/itzune/latxa-vl-gguf) on HuggingFace.
+
+
 ## Conclusions
 
-Latxa VL is another important step in Basque artificial intelligence. In addition to achieving small models like [Kimu](/blog/kimu), we now have a model with vision capability; which can be very interesting for uses like OCR to digitize Basque documents and extract information from them in a structured way.
+Latxa VL is another important step in Basque artificial intelligence. It may not perform as well as [Kimu](/blog/kimu) in Basque, probably because its size is also smaller.
+
+On the other hand, it should be emphasized that we now have a model with vision capability; which can be particularly interesting for uses like OCR to digitize Basque documents and extract information from them in a structured way.
+
+However, we face several challenges in the future. Such as making these small-sized models perform better in Basque.

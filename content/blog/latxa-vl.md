@@ -103,6 +103,14 @@ Irteera egituratuak tresnen erabilera errazten du. Horrela, MCP zerbitzari bat k
 Tresna hauei deiak ondo egiten dizkiela konprobatu dut baina, tamalez, egin dudan probetan tresnaren erabilera behin eta berriro errepikatuz gelditzen da, noiz gelditu jakin gabe.
 
 
+## Ereduak GGUF formatuan eskuragarri
+
+Latxa VL ereduak GGUF formatura bihurtu eta eskuragarri utzi ditut HuggingFace-ko [**Itzune** ekimenaren espazioan](https://huggingface.co/collections/itzune/latxa-vl-gguf).
+
 ## Ondorioak
 
-Latxa VL beste urrats garrantzitsu bat da euskarazko adimen artifizialean. [Kimu](/blog/kimu) bezalako eredu txikiak lortzeaz gain, ikusmenerako gaitasuna duen eredua dugu orain; oso interesgarria izan daitekeena OCR moduko erabileran euskarazko dokumentuak digitalizatzeko eta bertatik informazioa modu egituratuan ateratzeko.
+Latxa VL beste urrats garrantzitsu bat da euskarazko adimen artifizialean. Euskaraz agian ez dabil [Kimu](/blog/kimu) bezain txukun, seguraski bere tamaina ere txikiagoa delako.
+
+Aldiz, azpimarratu behar da ikusmenerako gaitasuna duen eredua dugula orain; bereziki interesgarria izan daitekeena OCR moduko erabileran euskarazko dokumentuak digitalizatzeko eta bertatik informazioa modu egituratuan ateratzeko.
+
+Hala ere, etorkizunera begira hainbat erronka ditugu aurrean. Hala nola, tamaina txikiko eredu hauek euskaraz hobeto egitea.
