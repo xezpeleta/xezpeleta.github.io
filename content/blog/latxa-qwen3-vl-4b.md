@@ -85,20 +85,20 @@ Dokumentu honen xedea da erabiltzaileak autopistako ordainketa egiaztatzea eta f
 
 Ikus bezala, bertako informazio gehiena ateratzeko gai da, ia akatsik gabe. Esango nuke, gainera, euskarazko testuak hobeto erauzteko gaitasuna duela, Qwen3-VL ereduekin alderatuz. Nahiz eta hau ziurtatzeko, ebaluazio zehatzagoa beharko genukeen.
 
-## Irteera estrukturatua
+## Irteera egituratua
 
-Azken urtean argitaratutako eredu berri hauek duten beste berezitasun interesgarri bat, irteera estrukturatua lortzeko gaitasuna da. Hau da, CSV taula edo JSON formatuko irteerak lortu ditzakegu gure eskaerei modu zehatz batean erantzuteko.
+Azken urtean argitaratutako eredu berri hauek duten beste berezitasun interesgarri bat, irteera egituratua lortzeko gaitasuna da. Hau da, CSV taula edo JSON egitura duten irteerak lortu ditzakegu gure eskaerei modu zehatz batean erantzuteko.
 
 Honi esker, eredu hauek automatizazio lan fluxuetan integratu ditzakegu. Adibidez, ticketen irudiak pasa eta bertatik informazio zehatza beti modu berean lortu nahiko bagenu, ondorengo n8n automatziazio hau erabili genezake.
 
 ![latxa-vl eredua n8n automatizazio batean](/images/latxa-vl-n8n.png)
 
-![latxa-vl ereduari esker irteera estrukturatua](/images/latxa-vl-n8n-2.png)
+![latxa-vl ereduari esker irteera egituratua](/images/latxa-vl-n8n-2.png)
 
 
 ## Tresnen erabilera
 
-Irteera estrukturatuak tresnen erabilera errazten du. Horrela, MCP zerbitzari bat konfiguratu dezakegu gure AA agentean eta bertako tresnak ereduari eskuragarri utzi behar dituenean erabili ditzan.
+Irteera egituratuak tresnen erabilera errazten du. Horrela, MCP zerbitzari bat konfiguratu dezakegu gure AA agentean eta bertako tresnak ereduari eskuragarri utzi behar dituenean erabili ditzan.
 
 Tresna hauei deiak ondo egiten dizkiela konprobatu dut baina, tamalez, egin dudan probetan tresnaren erabilera behin eta berriro errepikatuz gelditzen da, noiz gelditu jakin gabe.
 
