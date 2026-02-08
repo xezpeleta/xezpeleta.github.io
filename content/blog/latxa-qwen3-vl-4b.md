@@ -101,4 +101,4 @@ Tresna hauei deiak ondo egiten dizkiela konprobatu dut baina, tamalez, egin duda
 
 ## Ondorioak
 
-Latxa VL ereduak beste urrats garrantzitsu bat dira euskarazko AAko ereduetan. Kimu bezalako eredu txikiak lortzeaz gain, ikusmenerako gaitasuna duen eredua dugu orain; oso interesgarria izan daitekeena OCR moduko erabileran euskarazko dokumentuak digitalizatzeko eta bertatik informazioa modu egituratuan ateratzeko.
+Latxa VL beste urrats garrantzitsu bat da euskarazko adimen artifizialean. [Kimu](/blog/kimu) bezalako eredu txikiak lortzeaz gain, ikusmenerako gaitasuna duen eredua dugu orain; oso interesgarria izan daitekeena OCR moduko erabileran euskarazko dokumentuak digitalizatzeko eta bertatik informazioa modu egituratuan ateratzeko.
