@@ -41,7 +41,7 @@ source .venv/bin/activate
 
 ## Instalatu dependentziak
 
-Kasu honetan, ez dugu behar llama.cpp osoa instalatzea; soilik bihurketa tresnak erabili ahal izateko ilburutegiak beharko ditugu:
+Kasu honetan, ereduak bihurtzeko ez dugu behar *llama.cpp* osoa instalatzea; soilik bihurketa tresnak erabili ahal izateko liburutegiak beharko ditugu:
 
 ```
 uv pip install -r requirements/requirements-convert_hf_to_gguf.txt
@@ -91,14 +91,16 @@ Informazio gehiagorako, irakurri [llama-quantize gida](https://github.com/ggml-o
 
 Behin gure gguf fitxategiak sortuta, `llama.cpp` erabiliz ereduak exekutatu ditzakegu gure ordenagailuan bertan.
 
+Honetarako bai, *llama.cpp* [instalatu beharko dugu](https://github.com/ggml-org/llama.cpp/blob/master/docs/install.md).
+
 ```
 # Exekutatu llama-cli gure ereduarekin
 llama-cli -m Orai-Kimu-9B-GGUF-Q4_0.gguf
 ```
 
-Goiko agindu honek terminalean bertan proba azkarrak egiteko aukera emango digu.
+Agindu honek terminalean bertan proba azkarrak egiteko aukera emango digu.
 
-Nik nahiago, ordea, OpenAI APIarekin bateragarria den zerbitzaria exekutat, web interfazea eta guzti!
+Nik nahiago, ordea, OpenAI APIarekin bateragarria den zerbitzaria exekutatu, web interfazea eta guzti!
 
 ```
 llama-server \
@@ -107,7 +109,9 @@ llama-server \
     --model Gemma-2b-GGUF-Q4_0.gguf 
 ```
 
-Ereduak HuggingFace-en argitaratuak badaude, zuzenean bertatik exekutatu ditzakegu eskuz deskargatu gabe `-hf` parametroa erabiliz:
+Dena ondo badabil, `http://localhost:8000` helbidean sartu eta hor ikusiko duzu elkarrizketarako web interfaze txukuna martxan.
+
+Ereduak *HuggingFace*-en argitaratuak badaude, zuzenean bertatik exekutatu ditzakegu eskuz deskargatu gabe `-hf` parametroa erabiliz:
 
 ```
 llama-server
@@ -135,6 +139,8 @@ llama-server --host localhost --port 8000 \
       --min-p 0.0 \
       --presence-penalty 1.5
 ```
+
+Gainontzeko parametroen esanahia ezagutzeko, irakurri `llama-server` aginduaren laguntza.
 
 ## Erabilera Ollama bidez
 
