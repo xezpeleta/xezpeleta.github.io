@@ -17,6 +17,8 @@ params:
   author:
     name: Xabi Ezpeleta
 
+  hideAuthor: true
+
   ShowCodeCopyButtons: true
   
   # Ikonoak agertzeko, homeInfoParams gehitu behar dut
