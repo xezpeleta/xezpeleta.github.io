@@ -18,6 +18,8 @@ params:
     name: Xabi Ezpeleta
 
   hideAuthor: true
+  ShowToc: true
+  TocOpen: false
 
   ShowCodeCopyButtons: true
   
