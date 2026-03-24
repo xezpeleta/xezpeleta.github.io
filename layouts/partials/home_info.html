@@ -1,0 +1,26 @@
+{{- with site.Params.homeInfoParams }}
+{{- $title := .Title | default "" -}}
+{{- $content := .Content | default "" -}}
+{{- $hasTitle := gt (len (trim $title " ")) 0 -}}
+{{- $hasContent := gt (len (trim $content " ")) 0 -}}
+{{- $hasSocial := gt (len site.Params.socialIcons) 0 -}}
+{{- if or $hasTitle $hasContent $hasSocial }}
+<article class="first-entry home-info{{- if and (not $hasTitle) (not $hasContent) }} home-info-compact{{- end }}">
+    {{- if $hasTitle }}
+    <header class="entry-header">
+        <h1>{{ $title | markdownify }}</h1>
+    </header>
+    {{- end }}
+    {{- if $hasContent }}
+    <div class="entry-content">
+        {{ $content | markdownify }}
+    </div>
+    {{- end }}
+    {{- if $hasSocial }}
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+    {{- end }}
+</article>
+{{- end }}
+{{- end -}}
