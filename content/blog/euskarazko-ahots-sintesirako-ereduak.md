@@ -13,7 +13,7 @@ Zorionez, panorama aldatzen ari da azken hilabeteetan.
 
 ## *Maider* eta *Antton*, HiTZ zentroak argitaratutako ereduak
 
-[HiTZ zentroak bere TTS ereduak argitaratu ditu](https://huggingface.co/collections/HiTZ/tts). ILENIA proiektuaren baitan argitaratutako bi ahots argitaratu dituzte: Antton (gizonezkoa) eta Maider (emakumezkoa). Eredu hauek eskuragarri daude bakoitzak bere ordenagailuan exekutatu ahal izateko, edota nahiago bada, [Aholab-en webgunearen bidez](https://aholab.ehu.eus/DNN/TTS/) erabili daitezke ezer instalatu gabe.
+[HiTZ zentroak bere TTS ereduak argitaratu ditu](https://huggingface.co/collections/HiTZ/tts). ILENIA proiektuaren baitan bi ahots partekatu dituzte: Antton (gizonezkoa) eta Maider (emakumezkoa). Eredu hauek eskuragarri daude bakoitzak bere ordenagailuan exekutatu ahal izateko, edota nahiago bada, [Aholab-en webgunearen bidez](https://aholab.ehu.eus/DNN/TTS/) erabili daitezke ezer instalatu gabe.
 
 
 {{< rawhtml >}}
@@ -28,7 +28,7 @@ Zorionez, panorama aldatzen ari da azken hilabeteetan.
 
 Hain zuzen ere, HiTZ zentroak argitaratutako bi ahots horiek baliatuz, [Urtzi Odriozolak Piper TTS-rako egokitu ditu](https://blogak.eus/urtzai/maider-eta-antton-euskarazko-tts-ahotsak-piper-motorrerako-egokitu-ditut). [Piper TTS](https://github.com/OHF-Voice/piper1-gpl) testutik hizketara bihurtzeko tresna arina eta azkarra da. Honi esker, ahots sintetikoak sortu ditzakegu gure gailu xumeetan oso modu azkarrean.
 
-Nahi izanez gero, ezer instalatu gae, [ahots hauek lokalean sintetizatu ahal izateko webgunea sortu dut](https://itzune.github.io/basque-piper-tts/) WebAssembly bidez.
+Nahi izanez gero, ezer instalatu gabe, [ahots hauek lokalean sintetizatu ahal izateko webgunea sortu dut](https://itzune.github.io/basque-piper-tts/) WebAssembly bidez.
 
 
 {{< rawhtml >}}
