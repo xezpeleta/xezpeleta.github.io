@@ -58,6 +58,8 @@ Ba, sorpresa! justu ezaugarri guzti hauek betetzen dituen eredu berri bat argita
 
 Egin ditudan proben arabera, euskaraz bikain egiten duela iruditzen zait, naturaltasun handiarekin. Sentimenduen kontrola egiteko aukera du, adibidez testuan *[laugher]* etiketa gehituta barrea txertatu nahi badiogu. Hain justu sentimendu kontrol hau euskaraz behintzat ez dabil oso fin, baina beno, ez gara kexatuko. Urrats garrantzitsu bat dela iruditu zait.
 
+> *"[surprise-wa] hau euskarazko testu batetik sortutako audio bat da!"*
+
 {{< rawhtml >}}
 <audio controls preload="metadata">
   <source src="/audio/omnivoice_demo_tag.mp3" type="audio/mpeg">
@@ -66,6 +68,10 @@ Egin ditudan proben arabera, euskaraz bikain egiten duela iruditzen zait, natura
 {{< /rawhtml >}}
 
 Bestalde, nahiz eta ordenagailu soil batean exekutatu daiteken, exekuzioa nahiko astuna eta motela da. Hitz gutxiko esaldi sinple batetik audioa sortzeko 5 minutu inguru behar ditu. Beraz, seguraski, horrelako ereduen inferentzia GPUa duten ordenagailu edo zerbitzarietan egitea izango da arruntena.
+
+Ahots klonazioari dagokionez, egindako proben arabera, erreferentziazko audio motz bat ematea gomendatzen dut (<20s) eta ahal bada isiltasun tarte handirik gabekoa. Audioa sortzeko, denbora luzeagoa beharko du (bikoitza baina gehiago).
+
+Momentuz, [OmniVoice demo webgunea](https://huggingface.co/spaces/k2-fsa/OmniVoice) erabili daiteke probak egiteko.
 
 ## Ondorio gisa
 
