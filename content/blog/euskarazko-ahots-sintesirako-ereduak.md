@@ -75,6 +75,6 @@ Momentuz, [OmniVoice demo webgunea](https://huggingface.co/spaces/k2-fsa/OmniVoi
 
 ## Ondorio gisa
 
-Bapateko sintesia behar dugunean, edozein gailutan lokalean exekutatzeko, euskarazko Piper TTS ereduak erabilgarri ditugu orain. [Euskarazko Parakeet] ahots errekonozimendu ereduarekin primeran moldatzen den eredua izan daiteke.
+Bapateko sintesia behar dugunean, edozein gailutan lokalean exekutatzeko, euskarazko Piper TTS ereduak erabilgarri ditugu orain. [Euskarazko Parakeet](https://xezpeleta.github.io/blog/parakeet-tdt-euskaraz/) ahots errekonozimendu ereduarekin primeran moldatzen den eredua izan daiteke.
 
 Aldiz, kalitate handiko euskarazko ahotsak sortu behar ditugunean, emaitzaren kontrol handiagoarekin, **OmniVoice** aukera interesgarria izan daitekela iruditzen zait. Hori bai, horretarako GPU txartela duen ordenagailua edo zerbitzaria beharko dugu.
