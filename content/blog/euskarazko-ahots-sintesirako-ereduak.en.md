@@ -56,9 +56,9 @@ Well, surprise: *Xiaomi Corp.* recently published a model that checks all those 
 </audio>
 {{< /rawhtml >}}
 
-From the tests I ran, it performs very well in Basque, with high naturalness. It also supports emotion control, for example by adding the *[laugher]* tag to inject laughter. In practice, this emotion control is not yet very reliable in Basque, but still, it feels like an important step forward.
+From the tests I ran, it performs very well in Basque, with high naturalness. It also supports emotion control, for example by adding the *[laughter]* tag to inject laughter. In practice, this emotion control is not yet very reliable in Basque, but still, it feels like an important step forward.
 
-> *"[surprise-wa] this is an audio generated from a Basque text!"*
+> *"[surprise-wa] hau euskarazko testu batetik sortutako audio bat da!"*
 
 {{< rawhtml >}}
 <audio controls preload="metadata">

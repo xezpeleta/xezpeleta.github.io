@@ -2,7 +2,7 @@
 title: "Euskarazko ahots sintesirako eredu berriak: Maider, Antton eta OmniVoice"
 date: 2026-04-04
 draft: false
-tags: ["ai", "euskara", "tts", "hitz", "aholab", "itzune", "pipertts", "omnivoice", "xiamoi"]
+tags: ["ai", "euskara", "tts", "hitz", "aholab", "itzune", "pipertts", "omnivoice", "xiaomi"]
 ---
 
 Azken urteetan testutik hizketara (ingelesez *Text-To-Speech* edo *TTS*) bihurtzeko ereduak izugarri garatu dira. Hilabetez-hilabete ahoskera, prosodia edota audioaren kalitatea hobetzen zuten ereduak argitaratu dituzte. Tamalez, haietako gehienak ingelesez egiteko prestatuak edota, kasurik hoberenean, hizkuntza gutxi batzuekin bateragarriak.
@@ -56,7 +56,7 @@ Ba, sorpresa! justu ezaugarri guzti hauek betetzen dituen eredu berri bat argita
 </audio>
 {{< /rawhtml >}}
 
-Egin ditudan proben arabera, euskaraz bikain egiten duela iruditzen zait, naturaltasun handiarekin. Sentimenduen kontrola egiteko aukera du, adibidez testuan *[laugher]* etiketa gehituta barrea txertatu nahi badiogu. Hain justu sentimendu kontrol hau euskaraz behintzat ez dabil oso fin, baina beno, ez gara kexatuko. Urrats garrantzitsu bat dela iruditu zait.
+Egin ditudan proben arabera, euskaraz bikain egiten duela iruditzen zait, naturaltasun handiarekin. Sentimenduen kontrola egiteko aukera du, adibidez testuan *[laughter]* etiketa gehituta barrea txertatu nahi badiogu. Hain justu sentimendu kontrol hau euskaraz behintzat ez dabil oso fin, baina beno, ez gara kexatuko. Urrats garrantzitsu bat dela iruditu zait.
 
 > *"[surprise-wa] hau euskarazko testu batetik sortutako audio bat da!"*
 
