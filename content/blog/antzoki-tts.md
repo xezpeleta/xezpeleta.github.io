@@ -3,6 +3,10 @@ title: "Antzoki-TTS: emozio eta antzespen ahalmena gehituz"
 date: 2026-05-16
 draft: false
 tags: ["ai", "euskara", "tts", "dramabox", "ltx2", "lora", "itzune", "openslr"]
+cover:
+    image: "/images/antzoki-tts-cover.png"
+    alt: "Antzoki TTS"
+    caption: "Antzoki TTS"
 ---
 
 *Text-to-Speech* teknologia tradizionalak ahots sendoak ematen dizkigu gaur egun, baina ez du inolako aukerarik eskaintzen audioaren interpretazioa bideratzeko. Eredu hauek audioliburu bat, ipuin bat, jokoetarako audioak etab. sortzeko erabili nahi baditugu, laster konturatuko gara emaitzak ez direla aproposak. Ahots hotz eta neutralak lortuko ditugu. Robotikoak. Aspergarriak.

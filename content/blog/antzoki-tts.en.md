@@ -3,6 +3,10 @@ title: "Antzoki-TTS: Adding Emotion and Acting Capabilities"
 date: 2026-05-16
 draft: false
 tags: ["ai", "euskara", "tts", "dramabox", "ltx2", "lora", "itzune", "openslr"]
+cover:
+    image: "/images/antzoki-tts-cover.png"
+    alt: "Antzoki TTS"
+    caption: "Antzoki TTS"
 ---
 
 Traditional *Text-to-Speech* technology gives us solid voices today, but offers no way to guide the interpretation of the audio. If we want to use these models to produce audiobooks, stories, game audio, etc., we soon realize the results are not ideal. We get cold, neutral voices. Robotic. Boring.
