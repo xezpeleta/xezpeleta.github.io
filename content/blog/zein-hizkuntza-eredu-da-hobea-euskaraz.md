@@ -1,7 +1,7 @@
 ---
 title: "Zein hizkuntza eredu da hobea euskaraz?"
 date: 2026-05-23
-draft: true
+draft: false
 tags: ["ai", "euskara", "llm", "orai", "hitz", "benchmark", "leaderboard", "evaluation"]
 ---
 
