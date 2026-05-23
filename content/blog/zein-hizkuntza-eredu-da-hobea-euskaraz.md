@@ -13,7 +13,7 @@ Hain zuzen ere hau da nire buruari egiten diodan galdera eredu interesgarri berr
 
 Honetarako existitzen diren euskarazko ebaluazio benchmark edo datu-sortak erabili ditut (mila esker *HiTZ* eta *Orai*).
 
-![Hau da momentu honetan dugun rankinga](/images/evaleu-table.png)
-![Denboran zehar nola doa aldatzen?](/images/evaleu-timeline.png)
+![Hau da momentu honetan dugun rankinga](/images/evaleu_table.png)
+![Denboran zehar nola doa aldatzen?](/images/evaleu_timeline.png)
 
 Proiektua [Itzune](https://github.com/itzune/) ekimenaren baitan argitaratu dut. Webguneaz gain, biltegian ebaluazioak sortzeko erabilitako tresnak ere aurkituko dituzue. Hobekuntzak eta ideiak eskertzen dira!
