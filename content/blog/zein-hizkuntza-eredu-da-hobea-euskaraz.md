@@ -16,4 +16,9 @@ Honetarako existitzen diren euskarazko ebaluazio benchmark edo datu-sortak erabi
 ![Hau da momentu honetan dugun rankinga](/images/evaleu_table.png)
 ![Denboran zehar nola doa aldatzen?](/images/evaleu_timeline.png)
 
-Proiektua [Itzune](https://github.com/itzune/) ekimenaren baitan argitaratu dut. Webguneaz gain, biltegian ebaluazioak sortzeko erabilitako tresnak ere aurkituko dituzue. Hobekuntzak eta ideiak eskertzen dira!
+Etorkizunean gehitu nahiko nituzkeen gauzen artean:
+
+- Itzulketa automatikoen ebaluazioak gehitu
+- Eredu lokalaz aratago, api bidezko hornitzaileek eskeinitako eredu erraldoiak ere gehitu (OpenAI, Google, Anthropic...)
+
+Proiektua [Itzune](https://github.com/itzune/) ekimenaren baitan argitaratu dut. Webguneaz gain, [biltegian](https://github.com/itzune/evaleu) ebaluazioak sortzeko erabilitako tresnak ere aurkituko dituzue. Hobekuntzak eta ideiak eskertzen dira!
