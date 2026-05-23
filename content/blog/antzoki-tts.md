@@ -15,7 +15,7 @@ Azkenaldian, ordea, zeinu paralinguistikoak (etenak, arnasketak eta aldaera emoz
 
 Hain zuzen ere, [Antzoki-TTS](https://huggingface.co/itzune/antzoki-tts), nire azken esperimentuaren helburua horixe da: hiztunaren izaera, ezaugarri emozionalak eta paralinguistiko hauek definitu ahal izatea; eta **euskarazko emaitza txukunak** lortu ahal izatea.
 
-Adibidez, honako agindua emanez gero (gidoi moduan, pertsonaia eta emozioak deskribatuz) beldurrez betetako ahots maltzur bat sor dezakegu, honako erreferentziak gidatuta:
+Adibidez, honako agindua emanez gero (gidoi moduan, pertsonaia eta emozioak deskribatuz) maltzur baten ahots beldurgarri bat sor dezakegu, honako erreferentziak gidatuta:
 
 > *A shadowy villain speaks with cold menace, "Nire lurretan sartu zara, morroi"
 > He chuckles darkly, "Erruz ordainduko duzu."
@@ -28,7 +28,7 @@ Adibidez, honako agindua emanez gero (gidoi moduan, pertsonaia eta emozioak desk
 </audio>
 {{< /rawhtml >}}
 
-Edo, nahiago bada, tonu gozo eta alaiagoa:
+Edo, nahiago bada, neskato baten tonu gozo eta alaiagoa:
 
 > *A bright-eyed girl spins in a field of wildflowers, her voice bubbling with pure, breathless wonder:
 > "Aizu, aitona! Entzun duzu?!"
@@ -44,18 +44,18 @@ Edo, nahiago bada, tonu gozo eta alaiagoa:
 </audio>
 {{< /rawhtml >}}
 
-**Antzoki-TTS** [DramaBox](https://www.resemble.ai/learn/models/dramabox) ereduan oinarrituta dago, zeina aldi berean [LTX-2](https://ltx.io/model/ltx-2) bideo ereduan oinarritua izan den. Izan ere, bideoak sortzeko eredu honetatik audioa eratzeko zatia erauzi dute eta emaitzak txundigarriak dira. Nire kasuan, jatorrizko ereduaren gainean [LoRA](https://huggingface.co/itzune/antzoki-tts) adaptazio bat entrenatu dut, euskararen ahoskera eta prosodia hobetzeko asmoz.
+**Antzoki-TTS** [DramaBox](https://www.resemble.ai/learn/models/dramabox) ereduan oinarrituta dago, zeina aldi berean [LTX-2](https://ltx.io/model/ltx-2) bideo ereduan oinarritua izan den. Izan ere, bideoak sortzeko eredu honetatik audioa eratzeko zatia erauzi dute eta emaitzak txundigarriak dira. Nire kasuan, jatorrizko ereduaren gainean [LoRA](https://huggingface.co/itzune/antzoki-tts) moldaketa bat entrenatu dut, euskararen ahoskera eta prosodia hobetzeko asmoz.
 
 ## Nola dabil?
 
-*Zuzendari gidoi* motako testu-aginduaz gain, erreferentzia modura audio fitxategi bat emanez gero, honen ahots estiloa ere erabiliko du oinarri gisa. Hain zuzen ere, ikusi dudanez, horrela lortzen dira emaitza onenak.
+*Zuzendari gidoi* motako testu-aginduaz gain, erreferentzia modura audio fitxategi bat emanez gero, honen ahots estiloa ere erabiliko du oinarri gisa. Hain zuzen ere horrela lortzen dira emaitza onenak.
 
 Eredua bi elementu hauekin elikatzen da:
 
-1. **Erreferentzia audioa** (~10 segundo nahikoa, ahotsaren tinbrea eta estiloa kopiatzeko)
-2. **Zuzendari gidoia**: testua ez ezik, interpretazioa ere deskribatzen duena — emozioak, pausak, arnasketak...
+1. **Erreferentziazko audioa** (~10 segundo nahikoa, ahotsaren tinbrea eta estiloa kopiatzeko)
+2. **Zuzendari gidoia**: testua ez ezik, interpretazioa ere deskribatzen duena (emozioak, pausak, arnasketak...)
 
-Gidoiak ingeleztea gomendatzen dut, baina aipuen barruan doan testua euskaraz idazten da, eta emaitza ezin hobeto moldatzen da.
+Gidoiak ingelesera itzultzea gomendatzen dut, baina aipuen barruan doan testua euskaraz idazten da, eta emaitza ezin hobeto moldatzen da.
 
 ## Entrenamendua
 
@@ -65,7 +65,7 @@ Tamalez, datu-sorta honetan ahots neutralak besterik ez ditugu — irakurketa so
 
 ## Erabilera
 
-Eredua lokalean erabiltzeko, DramaBox instalatu behar da, eta ondoren LoRA kargatu `--lora` banderarekin:
+Eredua lokalean erabiltzeko, DramaBox instalatu behar da, eta ondoren LoRA kargatu `--lora` aukerarekin:
 
 ```bash
 cd DramaBox
