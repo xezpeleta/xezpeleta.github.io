@@ -21,4 +21,4 @@ Among the things I would like to add in the future:
 - Add automatic translation evaluations
 - Beyond local models, also include large proprietary models offered via API (OpenAI, Google, Anthropic...)
 
-The project has been published under the [Itzune](https://github.com/itzune/) initiative. In addition to the website, you will find the tools used to run the evaluations in the [repository](https://github.com/itzune/evaleu). Improvements and ideas are very welcome!
+The project has been published under the [Itzune](https://itzune.eus) initiative. In addition to the website, you will find the tools used to run the evaluations in the [repository](https://github.com/itzune/evaleu). Improvements and ideas are very welcome!
