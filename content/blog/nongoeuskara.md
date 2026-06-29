@@ -26,6 +26,8 @@ Lan mardulena, datuak eskuratzea izan da. Horretarako, bereziki eskertu nahiko n
 
 ## Autoresearch
 
+![NongoEuskara pi-autoresearch pantaila-argazkia](/images/pi_autoresearch_zeineuski.png)
+
 Gauza da, lehen esan bezala, ez naizela aditua esparru honetan. Ereduak entrenatzea, emaitzak interpretatzea, etab. lan handia da eta horretarako ezagutza espezifikoak behar dira. Lan hau errezteko [pi-autoresearch](https://github.com/davebcn87/pi-autoresearch) erabili dut. Entrenamenduak eta hauen emaitzak optimizatzeko bereziki sortutako agente-extentsio bat da.
 
 > Modu laburrean azalduta: entrenamendu hiperparametro edo konfigurazio ezberdinak probatzen joango da, beti ere aurretik jasotako emaitzen interpretazioaren baitan, behin eta berriro (nekaezina da). Emaitzak hobetzea lortu badu, aldaketak gordeko ditu. Kaxkarragoak badira, ezeztatzen dira. Horrela, behin eta berriro, 30 bat saiakera egin eta emaitzak ikaragarri pila hobetu dituela ikusi dut.
