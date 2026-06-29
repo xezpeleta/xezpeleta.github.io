@@ -18,7 +18,7 @@ Hizkuntza identifikatzaileekin antzerakoa gertatzen da. Testu bat emanda, zein h
 
 ## Eta euskalkiak identifikatzeko?
 
-Galdera honi erantzun nahian, ideiarik izan gabe, eskura ditugun aukerak aztertzen hasi nintzen. Nahiz eta ez dudan aurkitu ezer honen inguruan argitaratuta, pentsatzen dut etxeko lan edo gradu amaierako lanen batean ikasleek egingo zituztela honekin haien esperimentuak.
+Galdera honi erantzun nahian, ideiarik izan gabe, eskura ditugun aukerak aztertzen hasi nintzen. Nahiz eta ez dudan aurkitu ezer honen inguruan argitaratuta, pentsatzen dut etxeko lan edo gradu amaierako lanetan, ikasle batek baina gehiagok sortuko zituela euskalkiak identifikatzeko sistemak (sare neuronalak edo bestela oinarrizko erregela bidezkoak).
 
 Nik **fastText** liburutegia erabiliz [sailkapenerako ereduak sortu ditut euskalkiak identifikatzeko](https://huggingface.co/itzune/zeineuski). Eredu hauek edozein gailu xumeetan exekutatu daitezke. Hare gehiago, eredua *entrenatzeko* ere ez dut *GPU* edo ordenagailu berezirik behar izan.
 
