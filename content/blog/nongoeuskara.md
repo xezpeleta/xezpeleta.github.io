@@ -7,7 +7,7 @@ tags: ["ai", "euskara", "euskalkiak", "dialect", "fasttext", "autoreserch"]
 
 ## DR;TL ("Ez dut irakurri; luzeegia" bertsioa)
 
-[NongoEuskara](https://itzune.eus/nongoeuskara/) esperimentua sortu dut. Horretarako, datuak bilatu, *fastText* saikapen edo *embedding* eredua entrenatu, eta demo webgunetxo hau sortu dut. *WebAssembly* erabiliz, eredu hauek nabigatzailean exekutatzen dira.
+[NongoEuskara](https://itzune.eus/nongoeuskara/) esperimentua sortu dut. Horretarako, datuak bilatu, *fastText* saikapen edo *embedding* eredua entrenatu, eta demo webgunetxo hau sortu dut. *WebAssembly* erabiliz, [sortutako eredu hauek](https://huggingface.co/itzune/zeineuski) nabigatzailean exekutatzen dira.
 
 ## Azalpen luzea
 
