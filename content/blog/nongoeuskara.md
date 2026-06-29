@@ -11,7 +11,7 @@ tags: ["ai", "euskara", "euskalkiak", "dialect", "fasttext", "autoreserch"]
 
 ## Azalpen luzea
 
-Badakigu hizkuntza eredu handiak (LLM) denetik egiteko gai direla. Nahiz eta, hasiera batean, ez ziren horretarako sortu, gaur egun gai dira programatzeko, itzulketak egiteko, audioa transkribatzeko, testu luzeak laburtzeko, etabar luze bat. Batzuetan, ordea, soluzio egokiena ez da beti LLM bat erabiltzea izango. Adibidez azkarrak eta sinpleak egiteko, badira itzultzaile neuronal arinagoak, baliabide gutxiago behar dituztenak.
+Badakigu hizkuntza eredu handiak (LLM) denetik egiteko gai direla. Nahiz eta, hasiera batean, ez ziren horretarako sortu, gaur egun gai dira programatzeko, itzulketak egiteko, audioa transkribatzeko, testu luzeak laburtzeko, etabar luze bat. Batzuetan, ordea, soluzio egokiena ez da beti LLM bat erabiltzea izango. Adibidez, itzulpen azkarrak eta sinpleak egiteko, badira LLMak baino itzultzaile neuronal arinagoak, baliabide gutxiago behar dituztenak.
 
 Hizkuntza identifikatzaileekin antzerakoa gertatzen da. Testu bat emanda, zein hizkuntza den jakiteko, ez dugu LLM baten beharrik. [**Hizkuntzaren Identifikazioa**](https://eu.wikipedia.org/wiki/Hizkuntzaren_identifikazioa) horretaz arduratzen da hain zuzen. [fastText](https://fasttext.cc/) (Meta AI) bezalako *embedding* ereduak horretarako balio dezakete besteak beste. Badaude jadanik entrenatutako ereduak, baliabide gutxirekin, hizkuntza identifikatzeko gai direnak.
 
