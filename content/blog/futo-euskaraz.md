@@ -21,7 +21,7 @@ Auto-osaketa eta antzeko idazketarako laguntza teknologiak ez dira berriak. Aspa
 
 Google aintzindari izan zen, bere *Gboard* teklatuan hizkuntza anitzetan teknologia hauek txertatzen. Baina, nola demontre da gai buruan dudan hitza asmatzeko?
 
-Sekretua mugikorrean bertan gorde eta exekutatzen duen hizkuntza eredu txiki batean dago. *LSTM* arkitekturako eredu txiki hau, *Federated Learning* bidez entrenatzen da, milioika erabiltzaileren laguntzaz.
+Sekretua mugikorrean bertan gorde eta exekutatzen duen hizkuntza eredu txiki batean dago. *LSTM* arkitekturako eredu txiki hau, [*Federated Learning*](https://en.wikipedia.org/wiki/Federated_learning) bidez entrenatzen da, milioika erabiltzaileren laguntzaz.
 
 > *Gboard*  erabiltzen duzu? Bazenekien zure mugikorra gau erdian esnatu eta ikasitako hitz berriak beste milioika mugikorrekin partekatzen dituela?
 

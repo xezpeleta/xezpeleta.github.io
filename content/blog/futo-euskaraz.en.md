@@ -21,7 +21,7 @@ Auto-completion and similar writing-assist technologies aren't new. They've been
 
 Google was a pioneer in incorporating these technologies into its *Gboard* keyboard across many languages. But how on earth is it able to guess the word you have in mind?
 
-The secret lies in a small language model stored and run on the phone itself. This small model, based on the *LSTM* architecture, is trained via *Federated Learning*, with the help of millions of users.
+The secret lies in a small language model stored and run on the phone itself. This small model, based on the *LSTM* architecture, is trained via [*Federated Learning*](https://en.wikipedia.org/wiki/Federated_learning), with the help of millions of users.
 
 > *Gboard*  Do you use it? Did you know your phone wakes up in the middle of the night and shares the new words it has learned with millions of other phones?
 
