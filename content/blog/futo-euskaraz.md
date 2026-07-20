@@ -8,7 +8,7 @@ tags: ["ai", "euskara", "autocompletion", "gboard", "transformer", "llama", "lat
 
 ## TL;DR (Luzeegia; Ez Dut Irakurri)
 
-Android-en euskarazko testu prediktiboa izateko hizkuntza eredu txiki bat entrenatu dut. [**FUTO Keyboard**](https://keyboard.futo.tech/)-ekin erabili daiteke Android telefonoan. Google-en *Gboard* ezagunaren antzera, hurrengo hitza aurreikusteko eta akatsak zuzentzeko gaitasuna du.
+Android-en euskarazko testu prediktiboa izateko hizkuntza eredu txiki bat entrenatu dut. [**FUTO Keyboard**](https://keyboard.futo.tech/)-ekin erabili daiteke telefonoan. Google-en *Gboard* ezagunaren antzera, hurrengo hitza aurreikusteko eta akatsak zuzentzeko gaitasuna du.
 
 ## Auto-osaketaren inguruan
 

@@ -8,7 +8,7 @@ tags: ["ai", "euskara", "basque", "autocompletion", "gboard", "transformer", "ll
 
 ## TL;DR
 
-I've trained a small language model to bring Basque predictive text to Android. It can be used with [**FUTO Keyboard**](https://keyboard.futo.tech/) on an Android phone. Much like Google's well-known *Gboard*, it can predict the next word and correct mistakes.
+I've trained a small language model to bring Basque predictive text to Android. It can be used with [**FUTO Keyboard**](https://keyboard.futo.tech/) on a phone. Much like Google's well-known *Gboard*, it can predict the next word and correct mistakes.
 
 ## About auto-completion
 
