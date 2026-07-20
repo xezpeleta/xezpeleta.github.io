@@ -73,7 +73,6 @@ Honi esker, hizkuntzak aldatzen ibili behar gabe, testu-osaketa eta zuzenketa be
 Bada [hari bat FUTOren GitHub webgunean](https://github.com/futo-org/android-keyboard/issues/1212) gai honi buruz hitzegiten: askok nahi dute haien hizkuntzan hurrengo hitza osatzeko gaitasuna. Frantsesa, greziera, norvegiera, suediera edota turkiera eskatzen dabiltza eta itxaroten. Momentuz, ingelerazko eredu ofizialaz gain, nik dakidala gutxi batzuk daude eskuragarri: portugesa eta poloniera. Eta orain, euskarazkoa!
 
 
->[!NOTE]
->FUTOk *"FUTO Source First License"* lizentzia propioa erabiltzen du. Kodea eskuragarri eta aldatzeko aukerarekin uzten du, baina muga batzuekin. Besteak beste, erabilera komertziala ez da onartzen.
+> FUTOk *"FUTO Source First License"* lizentzia propioa erabiltzen du. Kodea eskuragarri eta aldatzeko aukerarekin uzten du, baina muga batzuekin. Besteak beste, erabilera komertziala ez da onartzen.
 >
 >Hau dela eta, OSI (Open Source Initiative) edo FSF (Free Software Foundation) bezalako erakundeen arabera **FUTOk ez ditu software-aske gisa izendatzeko baldintzak betetzen**.

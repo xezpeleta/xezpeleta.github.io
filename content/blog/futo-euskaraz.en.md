@@ -73,7 +73,6 @@ Thanks to this, without having to switch languages back and forth, features like
 There's [a thread on FUTO's GitHub](https://github.com/futo-org/android-keyboard/issues/1212) discussing this topic: many people want the ability to complete the next word in their own language. French, Greek, Norwegian, Swedish, or even Turkish are being requested and awaited. For now, besides the official English model, as far as I know only a few are available: Portuguese and Polish. And now, Basque!
 
 
->[!NOTE]
->FUTO uses its own *"FUTO Source First License"*. It makes the code available and modifiable, but with some limitations. Among others, commercial use is not permitted.
+> FUTO uses its own *"FUTO Source First License"*. It makes the code available and modifiable, but with some limitations. Among others, commercial use is not permitted.
 >
 >Because of this, according to organizations such as OSI (Open Source Initiative) or FSF (Free Software Foundation), **FUTO does not meet the requirements to be classified as free/open-source software**.
