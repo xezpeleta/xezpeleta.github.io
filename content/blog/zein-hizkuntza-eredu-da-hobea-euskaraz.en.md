@@ -2,9 +2,6 @@
 title: "Which language model performs best in Basque?"
 date: 2026-05-23
 description: "EvalEU: an open ranking that measures and compares how well local language models (Latxa, Kimu, Qwen, Gemma...) handle Basque."
-cover:
-    image: "/images/zein-hizkuntza-eredu-da-hobea-euskaraz-cover.jpg"
-    alt: "Colored tape measure"
 draft: false
 tags: ["ai", "euskara", "basque", "llm", "orai", "hitz", "benchmark", "leaderboard", "evaluation"]
 ---
@@ -26,5 +23,3 @@ Among the things I would like to add in the future:
 - Beyond local models, also include large proprietary models offered via API (OpenAI, Google, Anthropic...)
 
 The project has been published under the [Itzune](https://itzune.eus) initiative. In addition to the website, you will find the tools used to run the evaluations in the [repository](https://github.com/itzune/evaleu). Improvements and ideas are very welcome!
-
-*Sharing image: [Tape measure colored](https://commons.wikimedia.org/wiki/File:Tape_measure_colored.jpeg), Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*

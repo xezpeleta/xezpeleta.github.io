@@ -2,9 +2,6 @@
 title: "Datu pertsonalak ezkutatzen euskarazko testuetan"
 date: 2026-10-10
 description: "GLiNER2 eredua euskarara egokitzen, testuetako datu pertsonalak (izenak, telefonoak, helbideak, NANak...) detektatzeko: babes-geruza gehigarri bat."
-cover:
-    image: "/images/gliner2-pii-euskaraz-cover.jpg"
-    alt: "Lupa bat testu baten gainean"
 draft: false
 tags: ["ai", "euskara", "pii", "pribatutasuna", "gliner2", "ner", "lora", "tknika"]
 ---
@@ -62,5 +59,3 @@ Edo hizkuntza eredu bati (LLM) zerbait eskatu aurretik, nahi gabe idatzi dugun i
 > Kontuan izan: ebaluazioa datu sintetikoekin egin da, eta benetako testuetan emaitzak okerragoak izango dira. Ereduak [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) lizentzia du (erabilera ez-komertziala), BasqueGLUE-k lizentzia hori duelako.
 
 Eredua, datu-sorta eta kodea eskuragarri daude: [Hugging Face](https://huggingface.co/tknika/gliner2-PII-basque-v2) eta [GitHub](https://github.com/tknika/gliner2-pii-basque).
-
-*Partekatzeko irudia: [Magnifying glass with focus on paper](https://commons.wikimedia.org/wiki/File:Magnifying_glass_with_focus_on_paper.png), Niabot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*

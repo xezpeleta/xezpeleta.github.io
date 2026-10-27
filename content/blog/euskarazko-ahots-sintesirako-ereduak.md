@@ -1,9 +1,6 @@
 ---
 title: "Euskarazko ahots sintesirako eredu berriak: Maider, Antton eta OmniVoice"
 date: 2026-04-04
-cover:
-    image: "/images/euskarazko-ahots-sintesirako-ereduak-cover.jpg"
-    alt: "Estudioko mikrofonoa"
 description: "Euskarazko ahots sintesirako eredu berriak: HiTZ-en Maider eta Antton ahotsak Piper TTS-rako, eta 600 hizkuntza baino gehiago sintetizatzen dituen OmniVoice."
 draft: false
 tags: ["ai", "euskara", "tts", "hitz", "aholab", "itzune", "pipertts", "omnivoice", "xiaomi"]
@@ -82,5 +79,3 @@ Momentuz, [OmniVoice demo webgunea](https://huggingface.co/spaces/k2-fsa/OmniVoi
 Bapateko sintesia behar dugunean, edozein gailutan lokalean exekutatzeko, euskarazko Piper TTS ereduak erabilgarri ditugu orain. [Euskarazko Parakeet](https://xezpeleta.github.io/blog/parakeet-tdt-euskaraz/) ahots errekonozimendu ereduarekin primeran moldatzen den eredua izan daiteke.
 
 Aldiz, kalitate handiko euskarazko ahotsak sortu behar ditugunean, emaitzaren kontrol handiagoarekin, **OmniVoice** aukera interesgarria izan daitekela iruditzen zait. Hori bai, horretarako GPU txartela duen ordenagailua edo zerbitzaria beharko dugu.
-
-*Partekatzeko irudia: [Aston Origin large diaphragm condenser microphone](https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg), Bizzarle, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

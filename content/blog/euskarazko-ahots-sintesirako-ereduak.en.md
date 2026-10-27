@@ -1,9 +1,6 @@
 ---
 title: "New Text-to-Speech Models for Basque: Maider, Antton and OmniVoice"
 date: 2026-04-04
-cover:
-    image: "/images/euskarazko-ahots-sintesirako-ereduak-cover.jpg"
-    alt: "Studio microphone"
 description: "New Basque text-to-speech models: HiTZ's Maider and Antton voices for Piper TTS, and OmniVoice, which can synthesize over 600 languages."
 draft: false
 tags: ["ai", "basque", "tts", "hitz", "aholab", "itzune", "pipertts", "omnivoice", "xiaomi"]
@@ -82,5 +79,3 @@ For now, the [OmniVoice demo site](https://huggingface.co/spaces/k2-fsa/OmniVoic
 When we need instant synthesis, and especially to run locally on almost any device, Basque Piper TTS models are now a practical option. It can be a great companion to the [Basque Parakeet](/blog/parakeet-tdt-euskaraz) speech recognition model.
 
 On the other hand, when we need high-quality Basque voice generation with greater control over the output, **OmniVoice** looks like a very interesting option. That said, for this use case you will likely need a computer or server with a GPU.
-
-*Sharing image: [Aston Origin large diaphragm condenser microphone](https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg), Bizzarle, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

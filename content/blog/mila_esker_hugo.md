@@ -2,7 +2,6 @@
 title: "Mila esker, Hugo"
 date: 2021-11-05T20:05:58+02:00
 description: "Zergatik aukeratu dudan Hugo blog hau sortzeko: webgune estatikoak sortzeko tresna azkar, malgu eta eleanitza."
-images: ["images/2021-11-02-21-20-04.png"]
 draft: false
 categories:
 - Web

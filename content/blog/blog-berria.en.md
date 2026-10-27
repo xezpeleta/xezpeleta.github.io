@@ -1,9 +1,6 @@
 ---
 title: "New blog"
 date: 2021-11-05T21:33:11+02:00
-cover:
-    image: "/images/blog-berria-cover.jpg"
-    alt: "Old typewriter keyboard"
 description: "Hi! A new blog to write about the technologies I learn and try out, built with Hugo."
 draft: false
 categories:
@@ -23,5 +20,3 @@ This website has been built using [Hugo](https://gohugo.io), an excellent tool t
 By the way, sorry but most of the content will be published in [basque](https://en.wikipedia.org/wiki/Basque_language), my mother tongue.
 
 See you soon!
-
-*Sharing image: [Old typewriter analog keyboard closeup](https://commons.wikimedia.org/wiki/File:Old_typewriter_analog_keyboard_closeup.jpg), Shixart1985, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*

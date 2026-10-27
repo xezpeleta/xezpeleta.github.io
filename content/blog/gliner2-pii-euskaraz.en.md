@@ -2,9 +2,6 @@
 title: "Hiding personal data in Basque texts"
 date: 2026-10-10
 description: "Adapting GLiNER2 to Basque to detect personal data (names, phone numbers, addresses, IDs...) in texts: an extra layer of protection."
-cover:
-    image: "/images/gliner2-pii-euskaraz-cover.jpg"
-    alt: "A magnifying glass over text"
 draft: false
 tags: ["ai", "euskara", "basque", "pii", "privacy", "gliner2", "ner", "lora", "tknika"]
 ---
@@ -62,5 +59,3 @@ Or before asking a language model (LLM) for something, to catch a name or phone 
 > Keep in mind: the evaluation was done on synthetic data, and results on real texts will be worse. The model is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (non-commercial use), because BasqueGLUE has that license.
 
 The model, dataset and code are available on [Hugging Face](https://huggingface.co/tknika/gliner2-PII-basque-v2) and [GitHub](https://github.com/tknika/gliner2-pii-basque).
-
-*Sharing image: [Magnifying glass with focus on paper](https://commons.wikimedia.org/wiki/File:Magnifying_glass_with_focus_on_paper.png), Niabot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*

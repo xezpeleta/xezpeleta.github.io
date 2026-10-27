@@ -2,9 +2,6 @@
 title: "Euskaraz diktatzen mugikorrean, ahotsa inora bidali gabe"
 date: 2026-07-21
 description: "FUTO Keyboard-erako euskarazko Whisper eredua: mugikorrean euskaraz diktatzeko, dena telefonoan bertan exekutatuta, ahotsa inora bidali gabe."
-cover:
-    image: "/images/futo-ahotsa-euskaraz-cover.jpg"
-    alt: "Mugikorrari hitz egiten"
 draft: false
 tags: ["ai", "euskara", "stt", "asr", "whisper", "whisper.cpp", "acft", "futo", "ahots-sarrera"]
 ---
@@ -66,5 +63,3 @@ Eta prest! Sakatu mikrofonoaren botoia eta hitz egin euskaraz.
 - **Ebaluazioa**: oraingoz proba gutxi egin ditut. Ebaluazio sakonagoa egitea falta da.
 
 Ereduak [Hugging Face-n](https://huggingface.co/itzune/whisper-small-eu-acft-ggml) eskuragarri daude, [Itzune](https://huggingface.co/itzune) proiektuaren baitan. Testu prediktiboarekin batera, FUTO teklatua osorik dugu euskaraz: idazteko eta hitz egiteko, dena gure mugikorrean. Probatu eta esan zer moduz!
-
-*Partekatzeko irudia: [Woman speaking on phone](https://commons.wikimedia.org/wiki/File:Woman_speaking_on_phone.jpg), Queen Asali, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

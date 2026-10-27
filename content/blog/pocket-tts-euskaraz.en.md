@@ -1,9 +1,6 @@
 ---
 title: "Pocket TTS in Basque: real-time speech synthesis on a plain CPU"
 date: 2026-10-18
-cover:
-    image: "/images/pocket-tts-euskaraz-cover.jpg"
-    alt: "Blue microphone"
 description: "Pocket TTS adapted to Basque: real-time speech synthesis on a plain CPU, with voice cloning, trained on a 470-hour synthetic dataset."
 draft: false
 tags: ["ai", "euskara", "basque", "tts", "pocket-tts", "kyutai", "omnivoice", "pipertts", "itzune", "bssd"]
@@ -96,5 +93,3 @@ If you want to use your own voice, pass your recording to the `--voice` option (
 It's not perfect. Some words aren't pronounced correctly, for example **"Antton"** or **"onddo"**.
 
 The model, dataset and code are available on [Hugging Face](https://huggingface.co/itzune/pocket-tts-basque) and [GitHub](https://github.com/itzune/pocket-tts-basque), as part of the [Itzune](https://itzune.eus) project. Try it out and let me know how it goes!
-
-*Sharing image: [Blue condenser microphone](https://commons.wikimedia.org/wiki/File:Blue_condenser_microphone_(Unsplash).jpg), Kelly Sikkema, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*
