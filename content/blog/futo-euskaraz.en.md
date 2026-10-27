@@ -2,7 +2,9 @@
 title: "Basque predictive text on mobile, respecting privacy"
 date: 2026-07-20
 description: "A small Basque language model for FUTO Keyboard: next-word prediction and autocorrect on Android, while respecting your privacy."
-images: ["images/futo-euskaraz-en-cover.jpg"]
+cover:
+    image: "/images/futo-euskaraz-cover.jpg"
+    alt: "Typing on a smartphone"
 draft: false
 tags: ["ai", "euskara", "basque", "autocompletion", "gboard", "transformer", "llama", "latxa", "futo", "auto-osaketa"]
 ---
@@ -78,3 +80,5 @@ There's [a thread on FUTO's GitHub](https://github.com/futo-org/android-keyboard
 > FUTO uses its own *"FUTO Source First License"*. It makes the code available and modifiable, but with some limitations. Among others, commercial use is not permitted.
 >
 >Because of this, according to organizations such as OSI (Open Source Initiative) or FSF (Free Software Foundation), **FUTO does not meet the requirements to be classified as free/open-source software**.
+
+*Cover image: [Woman texting on a smartphone](https://commons.wikimedia.org/wiki/File:Woman_texting_on_a_smartphone.jpg), Kristin Hardwick, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

@@ -83,4 +83,4 @@ When we need instant synthesis, and especially to run locally on almost any devi
 
 On the other hand, when we need high-quality Basque voice generation with greater control over the output, **OmniVoice** looks like a very interesting option. That said, for this use case you will likely need a computer or server with a GPU.
 
-*Sharing image: [Aston Origin large diaphragm condenser microphone](https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg), Bizzarle, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Cover image: [Aston Origin large diaphragm condenser microphone](https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg), Bizzarle, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

@@ -24,4 +24,4 @@ By the way, sorry but most of the content will be published in [basque](https://
 
 See you soon!
 
-*Sharing image: [Old typewriter analog keyboard closeup](https://commons.wikimedia.org/wiki/File:Old_typewriter_analog_keyboard_closeup.jpg), Shixart1985, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*
+*Cover image: [Old typewriter analog keyboard closeup](https://commons.wikimedia.org/wiki/File:Old_typewriter_analog_keyboard_closeup.jpg), Shixart1985, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*

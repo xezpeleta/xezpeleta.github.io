@@ -2,7 +2,9 @@
 title: "Dictating in Basque on mobile, without sending your voice anywhere"
 date: 2026-07-21
 description: "A Basque Whisper model for FUTO Keyboard: dictate in Basque on your phone, with everything running on the device and no audio sent anywhere."
-images: ["images/futo-ahotsa-euskaraz-en-cover.jpg"]
+cover:
+    image: "/images/futo-ahotsa-euskaraz-cover.jpg"
+    alt: "Speaking into a phone"
 draft: false
 tags: ["ai", "euskara", "basque", "stt", "asr", "whisper", "whisper.cpp", "acft", "futo", "voice-input"]
 ---
@@ -64,3 +66,5 @@ And you're done! Tap the microphone button and speak in Basque.
 - **Evaluation**: so far I've only run a few tests. A more thorough evaluation is still needed.
 
 The models are available [on Hugging Face](https://huggingface.co/itzune/whisper-small-eu-acft-ggml), as part of the [Itzune](https://huggingface.co/itzune) project. Together with predictive text, we now have the full FUTO keyboard in Basque: for typing and for speaking, all on our own phone. Try it out and let me know how it goes!
+
+*Cover image: [Woman speaking on phone](https://commons.wikimedia.org/wiki/File:Woman_speaking_on_phone.jpg), Queen Asali, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

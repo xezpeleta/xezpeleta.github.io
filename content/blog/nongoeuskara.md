@@ -2,7 +2,9 @@
 title: "Euskalkiak identifikatzen"
 date: 2026-06-28
 description: "NongoEuskara: testu bat zein euskalkitan idatzia dagoen asmatzen duen fastText eredua, nabigatzailean WebAssembly bidez exekutatzen dena."
-images: ["images/pi_autoresearch_zeineuski.png"]
+cover:
+    image: "/images/nongoeuskara-cover.jpg"
+    alt: "Euskalkien mapa (Koldo Zuazo, 2019)"
 draft: false
 tags: ["ai", "euskara", "euskalkiak", "dialect", "fasttext", "autoreserch", "webassembly", "wasm"]
 ---
@@ -43,3 +45,5 @@ Eredu hauekin zer egin, eta demo txukun bat egin behar zela pentsatu nuen. Web e
 Erabiltzaileak testu bat sartu, identifikatu eta Euskal Herriko mapan azpieuskalkia eta dagokion eskualde multzoa azpimarratzea nahi nuen. **Spoiler:** nola ez, *frontend* zati hau izan da gehien kostatu zaidan zatia! Entrenamendua baina gehiago!
 
 Hau egiteko, *WebAssembly* (*WASM*) bidez exekutatu behar izan dut eredua, aldez aurretik *kuantizatuta* (konprimatuta). Ondorio gisa: **_WASM_** ikaragarria da horrelako gauzetarako! Zerbitzaririk gabe, datuak inora bidali gabe, erabiltzaileok gure nabigatzaileetan punta-puntako aplikazio edo adimen artifizialeko ereduak exekutatu ditzakegu.
+
+*Azaleko irudia: [Euskalkien mapa, 2019](https://commons.wikimedia.org/wiki/File:Koldo_Zuazo_-_Euskalkien_mapa,_2019.jpg), Koldo Zuazo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

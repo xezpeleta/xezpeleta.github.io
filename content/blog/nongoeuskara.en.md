@@ -2,7 +2,9 @@
 title: "Identifying Basque dialects"
 date: 2026-06-28
 description: "NongoEuskara: a fastText model that guesses which Basque dialect a text is written in, running in the browser via WebAssembly."
-images: ["images/pi_autoresearch_zeineuski.png"]
+cover:
+    image: "/images/nongoeuskara-cover.jpg"
+    alt: "Map of Basque dialects (Koldo Zuazo, 2019)"
 draft: false
 tags: ["ai", "basque", "dialects", "dialect", "fasttext", "autoresearch"]
 ---
@@ -42,3 +44,5 @@ With these models in hand, I thought, "what do I do with them?" — and decided 
 I wanted users to enter a text, have it identified, and then highlight the sub-dialect and corresponding region on a map of the Basque Country. **Spoiler:** of course, the *frontend* part was the most painful bit! Even more than the training!
 
 To do this, I had to run the model via *WebAssembly* (*WASM*), previously *quantized* (compressed). Same conclusion again: *WASM* is amazing for this kind of thing! Without a server, without sending data anywhere, we as users can run cutting-edge applications or AI models right in our browsers.
+
+*Cover image: [Euskalkien mapa, 2019](https://commons.wikimedia.org/wiki/File:Koldo_Zuazo_-_Euskalkien_mapa,_2019.jpg), Koldo Zuazo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

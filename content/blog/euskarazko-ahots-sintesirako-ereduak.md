@@ -83,4 +83,4 @@ Bapateko sintesia behar dugunean, edozein gailutan lokalean exekutatzeko, euskar
 
 Aldiz, kalitate handiko euskarazko ahotsak sortu behar ditugunean, emaitzaren kontrol handiagoarekin, **OmniVoice** aukera interesgarria izan daitekela iruditzen zait. Hori bai, horretarako GPU txartela duen ordenagailua edo zerbitzaria beharko dugu.
 
-*Partekatzeko irudia: [Aston Origin large diaphragm condenser microphone](https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg), Bizzarle, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Azaleko irudia: [Aston Origin large diaphragm condenser microphone](https://commons.wikimedia.org/wiki/File:Aston_Origin_large_diaphragm_condenser_microphone.jpg), Bizzarle, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

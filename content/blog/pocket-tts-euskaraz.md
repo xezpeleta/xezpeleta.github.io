@@ -97,4 +97,4 @@ Ez da perfektua. Hitz batzuk ez ditu ondo ahoskatzen, adibidez **"Antton"** edo 
 
 Eredua, datu-sorta eta kodea eskuragarri daude: [Hugging Face](https://huggingface.co/itzune/pocket-tts-basque) eta [GitHub](https://github.com/itzune/pocket-tts-basque), [Itzune](https://itzune.eus) proiektuaren baitan. Probatu eta esan zer moduz!
 
-*Partekatzeko irudia: [Blue condenser microphone](https://commons.wikimedia.org/wiki/File:Blue_condenser_microphone_(Unsplash).jpg), Kelly Sikkema, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*
+*Azaleko irudia: [Blue condenser microphone](https://commons.wikimedia.org/wiki/File:Blue_condenser_microphone_(Unsplash).jpg), Kelly Sikkema, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

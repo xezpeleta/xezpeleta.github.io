@@ -2,7 +2,9 @@
 title: "Euskarazko testu prediktiboa mugikorretan pribatutasuna errespetatuz"
 date: 2026-07-20
 description: "FUTO Keyboard-erako euskarazko hizkuntza eredu txikia: hurrengo hitza iragarri eta akatsak zuzentzen ditu Android-en, pribatutasuna errespetatuz."
-images: ["images/futo-euskaraz-cover.jpg"]
+cover:
+    image: "/images/futo-euskaraz-cover.jpg"
+    alt: "Mugikorrean idazten"
 draft: false
 tags: ["ai", "euskara", "autocompletion", "gboard", "transformer", "llama", "latxa", "futo", "auto-osaketa"]
 ---
@@ -78,3 +80,5 @@ Bada [hari bat FUTOren GitHub webgunean](https://github.com/futo-org/android-key
 > FUTOk *"FUTO Source First License"* lizentzia propioa erabiltzen du. Kodea eskuragarri eta aldatzeko aukerarekin uzten du, baina muga batzuekin. Besteak beste, erabilera komertziala ez da onartzen.
 >
 >Hau dela eta, OSI (Open Source Initiative) edo FSF (Free Software Foundation) bezalako erakundeen arabera **FUTOk ez ditu software-aske gisa izendatzeko baldintzak betetzen**.
+
+*Azaleko irudia: [Woman texting on a smartphone](https://commons.wikimedia.org/wiki/File:Woman_texting_on_a_smartphone.jpg), Kristin Hardwick, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

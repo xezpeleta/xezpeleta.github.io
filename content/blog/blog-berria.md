@@ -23,4 +23,4 @@ Bloga sortzeko [Hugo](https://gohugo.io) erabili dut. Hain zuzen ere idatziko du
 
 Laster arte!
 
-*Partekatzeko irudia: [Old typewriter analog keyboard closeup](https://commons.wikimedia.org/wiki/File:Old_typewriter_analog_keyboard_closeup.jpg), Shixart1985, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*
+*Azaleko irudia: [Old typewriter analog keyboard closeup](https://commons.wikimedia.org/wiki/File:Old_typewriter_analog_keyboard_closeup.jpg), Shixart1985, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*
