@@ -1,6 +1,7 @@
 ---
 title: "Antzoki-TTS: emozio eta antzespen ahalmena gehituz"
 date: 2026-05-16
+description: "Antzoki-TTS: DramaBox ereduaren gainean entrenatutako LoRA bat, gidoi bidezko aginduekin emozioz betetako euskarazko ahots sintetikoak sortzeko."
 draft: false
 tags: ["ai", "euskara", "tts", "dramabox", "ltx2", "lora", "itzune", "openslr"]
 cover:

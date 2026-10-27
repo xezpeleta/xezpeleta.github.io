@@ -1,6 +1,8 @@
 ---
 title: "Euskarazko bat-bateko transkripzioak"
 date: 2024-03-04
+images: ["images/euskarazko-bat-bateko-transkripzioak-cover.png"]
+description: "Euskarazko Whisper ereduekin eta whisper-streaming proiektuarekin, zuzeneko hitzaldietarako bat-bateko transkripzioak egiteko esperimentua."
 draft: false
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:

@@ -1,6 +1,7 @@
 ---
 title: "Nvidia Parakeet in Basque: fast and CPU-friendly"
 date: 2026-03-15
+description: "Nvidia Parakeet fine-tuned for Basque: a lightweight speech recognition model that runs fast on modest hardware and CPUs."
 draft: false
 tags: ["ai", "basque", "stt", "nvidia", "parakeet", "onnx"]
 cover:

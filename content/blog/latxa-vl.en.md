@@ -1,6 +1,7 @@
 ---
 title: "New Latxa VL Models"
 date: 2026-02-07
+description: "Testing HiTZ's small Latxa VL models: describing images in Basque and, above all, extracting text from them as OCR."
 draft: false
 tags: ["llm", "hitz", "ai", "qwen", "basque models"]
 cover:

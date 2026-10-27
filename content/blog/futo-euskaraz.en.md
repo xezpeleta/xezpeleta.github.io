@@ -1,6 +1,8 @@
 ---
 title: "Basque predictive text on mobile, respecting privacy"
 date: 2026-07-20
+description: "A small Basque language model for FUTO Keyboard: next-word prediction and autocorrect on Android, while respecting your privacy."
+images: ["images/futo-euskaraz-en-cover.jpg"]
 draft: false
 tags: ["ai", "euskara", "basque", "autocompletion", "gboard", "transformer", "llama", "latxa", "futo", "auto-osaketa"]
 ---

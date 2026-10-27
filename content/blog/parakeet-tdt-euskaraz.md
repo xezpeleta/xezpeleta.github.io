@@ -1,6 +1,7 @@
 ---
 title: "Nvidia Parakeet euskaraz: azkarra eta CPUrako egokia"
 date: 2026-03-15
+description: "Nvidia Parakeet euskarara doituta: hardware xumean eta CPUan azkar dabilen euskarazko hizketa-ezagutza eredu arina."
 draft: false
 tags: ["ai", "euskara", "stt", "nvidia", "parakeet", "onnx"]
 cover:

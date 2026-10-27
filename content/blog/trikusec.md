@@ -1,6 +1,7 @@
 ---
 title: "TrikuSec"
 date: 2026-02-10
+description: "TrikuSec: zerbitzari anitzetako Lynis segurtasun-auditoriak leku bakarrean biltzen eta aztertzen dituen kode irekiko plataforma."
 draft: false
 tags: ["segurtasuna", "lynis", "linux", "auditoria", "kode irekia", "docker"]
 cover:

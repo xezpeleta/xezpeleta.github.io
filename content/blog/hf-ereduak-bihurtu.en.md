@@ -1,6 +1,7 @@
 ---
 title: "Convert Models to GGUF Format"
 date: 2026-02-08
+description: "A guide to converting Hugging Face models to GGUF with llama.cpp, so you can run them locally with Ollama or Llama.cpp."
 draft: false
 tags: ["llm", "llama.cpp", "gguf", "qwen"]
 cover:

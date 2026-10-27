@@ -1,6 +1,8 @@
 ---
 title: "Dictating in Basque on mobile, without sending your voice anywhere"
 date: 2026-07-21
+description: "A Basque Whisper model for FUTO Keyboard: dictate in Basque on your phone, with everything running on the device and no audio sent anywhere."
+images: ["images/futo-ahotsa-euskaraz-en-cover.jpg"]
 draft: false
 tags: ["ai", "euskara", "basque", "stt", "asr", "whisper", "whisper.cpp", "acft", "futo", "voice-input"]
 ---

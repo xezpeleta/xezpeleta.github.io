@@ -1,6 +1,8 @@
 ---
 title: "Real-time Transcriptions in Basque"
 date: 2024-03-04
+images: ["images/euskarazko-bat-bateko-transkripzioak-cover.png"]
+description: "An experiment in real-time Basque transcription for live talks, using Basque Whisper models and the whisper-streaming project."
 draft: false
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:

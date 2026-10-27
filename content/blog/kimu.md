@@ -1,6 +1,7 @@
 ---
 title: "Kimu"
 date: 2024-10-13
+description: "Orai-ren Kimu euskarazko hizkuntza ereduak (Gemma 2-n oinarritutako 2B eta 9B) GGUF formatura bihurtu eta Ollama bidez lokalean erabiltzen."
 draft: false
 tags: ["llm", "orai", "basque", "ai", "gemma", "llama.cpp", "ollama"]
 cover:

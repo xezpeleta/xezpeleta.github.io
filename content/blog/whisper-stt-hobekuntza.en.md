@@ -1,6 +1,7 @@
 ---
 title: "Basque from speech to text: improving transcription models"
 date: 2024-02-27
+description: "Improving Basque Whisper models with Common Voice, OpenSLR and Basque Parliament data: whisper-small-eu's WER dropped from 11.84% to 7.63%."
 draft: false
 tags: ["ai", "basque", "stt", "whisper"]
 cover:

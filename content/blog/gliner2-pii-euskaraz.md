@@ -1,6 +1,8 @@
 ---
 title: "Datu pertsonalak ezkutatzen euskarazko testuetan"
 date: 2026-10-10
+description: "GLiNER2 eredua euskarara egokitzen, testuetako datu pertsonalak (izenak, telefonoak, helbideak, NANak...) detektatzeko: babes-geruza gehigarri bat."
+images: ["images/gliner2-pii-euskaraz-cover.jpg"]
 draft: false
 tags: ["ai", "euskara", "pii", "pribatutasuna", "gliner2", "ner", "lora", "tknika"]
 ---

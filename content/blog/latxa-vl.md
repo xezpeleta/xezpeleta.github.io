@@ -1,6 +1,7 @@
 ---
 title: "Latxa VL eredu berriak"
 date: 2026-02-07
+description: "HiTZ-en Latxa VL eredu txikiak probatzen: irudiak euskaraz deskribatu eta, batez ere, OCR gisa testua erauzteko gaitasuna."
 draft: false
 tags: ["llm", "hitz", "ai", "qwen", "euskarazko ereduak"]
 cover:

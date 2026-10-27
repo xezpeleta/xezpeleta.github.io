@@ -1,6 +1,7 @@
 ---
 title: "Kimu"
 date: 2024-10-13
+description: "Orai's Kimu Basque language models (2B and 9B, based on Gemma 2), converted to GGUF and run locally with Ollama."
 draft: false
 tags: ["llm", "orai", "basque", "ai", "gemma", "llama.cpp", "ollama"]
 cover:

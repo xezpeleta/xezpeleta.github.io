@@ -1,6 +1,7 @@
 ---
 title: "Antzoki-TTS: Adding Emotion and Acting Capabilities"
 date: 2026-05-16
+description: "Antzoki-TTS: a LoRA trained on top of DramaBox to generate emotional, expressive Basque synthetic voices guided by script-style prompts."
 draft: false
 tags: ["ai", "euskara", "tts", "dramabox", "ltx2", "lora", "itzune", "openslr"]
 cover:

@@ -1,6 +1,7 @@
 ---
 title: "Ereduak GGUF formatura bihurtu"
 date: 2026-02-08
+description: "Hugging Face-n argitaratutako ereduak GGUF formatura bihurtzeko gida, llama.cpp erabiliz, eta Ollama edo Llama.cpp bidez lokalean exekutatzeko."
 draft: false
 tags: ["llm", "llama.cpp", "gguf", "qwen"]
 cover:

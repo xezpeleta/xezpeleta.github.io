@@ -1,6 +1,8 @@
 ---
 title: "Which language model performs best in Basque?"
 date: 2026-05-23
+description: "EvalEU: an open ranking that measures and compares how well local language models (Latxa, Kimu, Qwen, Gemma...) handle Basque."
+images: ["images/evaleu_table.png"]
 draft: false
 tags: ["ai", "euskara", "basque", "llm", "orai", "hitz", "benchmark", "leaderboard", "evaluation"]
 ---

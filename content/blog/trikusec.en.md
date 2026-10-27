@@ -1,6 +1,7 @@
 ---
 title: "TrikuSec"
 date: 2026-02-10
+description: "TrikuSec: an open-source platform that collects and tracks Lynis security audits from many servers in a single dashboard."
 draft: false
 tags: ["security", "lynis", "linux", "audit", "open-source", "docker"]
 cover:

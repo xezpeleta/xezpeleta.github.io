@@ -1,6 +1,7 @@
 ---
 title: "Euskara hortzetik hitzera: transkripzio ereduak hobetzen"
 date: 2024-02-27
+description: "Euskarazko Whisper ereduak hobetzen: Common Voice, OpenSLR eta Legebiltzarreko datuekin, whisper-small-eu ereduaren WER %11,84tik %7,63ra jaitsi da."
 draft: false
 tags: ["ai", "euskara", "stt", "whisper"]
 cover:

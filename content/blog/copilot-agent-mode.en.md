@@ -1,6 +1,7 @@
 ---
 title: "GitHub Copilot Agent Mode: An Intelligent Development Partner"
 date: 2024-02-12
+description: "Trying GitHub Copilot's Agent Mode: an autonomous development assistant that analyzes, edits and runs your project's files, even in Basque."
 draft: false
 tags: ["github", "ai", "vscode"]
 cover:

@@ -1,6 +1,8 @@
 ---
 title: "Zein hizkuntza eredu da hobea euskaraz?"
 date: 2026-05-23
+description: "EvalEU: euskarazko hizkuntza eredu lokalen (Latxa, Kimu, Qwen, Gemma...) euskara maila neurtu eta alderatzeko ranking irekia."
+images: ["images/evaleu_table.png"]
 draft: false
 tags: ["ai", "euskara", "llm", "orai", "hitz", "benchmark", "leaderboard", "evaluation"]
 ---

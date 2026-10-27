@@ -1,6 +1,8 @@
 ---
 title: "Euskalkiak identifikatzen"
 date: 2026-06-28
+description: "NongoEuskara: testu bat zein euskalkitan idatzia dagoen asmatzen duen fastText eredua, nabigatzailean WebAssembly bidez exekutatzen dena."
+images: ["images/pi_autoresearch_zeineuski.png"]
 draft: false
 tags: ["ai", "euskara", "euskalkiak", "dialect", "fasttext", "autoreserch", "webassembly", "wasm"]
 ---

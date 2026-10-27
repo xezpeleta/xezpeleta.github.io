@@ -1,6 +1,8 @@
 ---
 title: "Euskaraz diktatzen mugikorrean, ahotsa inora bidali gabe"
 date: 2026-07-21
+description: "FUTO Keyboard-erako euskarazko Whisper eredua: mugikorrean euskaraz diktatzeko, dena telefonoan bertan exekutatuta, ahotsa inora bidali gabe."
+images: ["images/futo-ahotsa-euskaraz-cover.jpg"]
 draft: false
 tags: ["ai", "euskara", "stt", "asr", "whisper", "whisper.cpp", "acft", "futo", "ahots-sarrera"]
 ---

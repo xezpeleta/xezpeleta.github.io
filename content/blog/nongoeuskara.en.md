@@ -1,6 +1,8 @@
 ---
 title: "Identifying Basque dialects"
 date: 2026-06-28
+description: "NongoEuskara: a fastText model that guesses which Basque dialect a text is written in, running in the browser via WebAssembly."
+images: ["images/pi_autoresearch_zeineuski.png"]
 draft: false
 tags: ["ai", "basque", "dialects", "dialect", "fasttext", "autoresearch"]
 ---

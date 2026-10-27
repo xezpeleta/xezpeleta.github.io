@@ -1,6 +1,8 @@
 ---
 title: "Hiding personal data in Basque texts"
 date: 2026-10-10
+description: "Adapting GLiNER2 to Basque to detect personal data (names, phone numbers, addresses, IDs...) in texts: an extra layer of protection."
+images: ["images/gliner2-pii-euskaraz-cover.jpg"]
 draft: false
 tags: ["ai", "euskara", "basque", "pii", "privacy", "gliner2", "ner", "lora", "tknika"]
 ---

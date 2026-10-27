@@ -1,6 +1,8 @@
 ---
 title: "Pocket TTS euskaraz: ahots sintesia denbora errealean, CPU soil batean"
 date: 2026-10-18
+images: ["images/pocket-tts-euskaraz-cover.jpg"]
+description: "Pocket TTS euskarara egokituta: CPU soil batean denbora errealean dabilen ahots sintesia, ahotsak klonatzeko aukerarekin eta 470 orduko datu-sorta sintetiko batekin."
 draft: false
 tags: ["ai", "euskara", "tts", "pocket-tts", "kyutai", "omnivoice", "pipertts", "itzune", "bssd"]
 ---
@@ -92,3 +94,5 @@ Zure ahotsa erabili nahi baduzu, `--voice` aukeran zure grabazioa jarri (`--voic
 Ez da perfektua. Hitz batzuk ez ditu ondo ahoskatzen, adibidez **"Antton"** edo **"onddo"**.
 
 Eredua, datu-sorta eta kodea eskuragarri daude: [Hugging Face](https://huggingface.co/itzune/pocket-tts-basque) eta [GitHub](https://github.com/itzune/pocket-tts-basque), [Itzune](https://itzune.eus) proiektuaren baitan. Probatu eta esan zer moduz!
+
+*Partekatzeko irudia: [Blue condenser microphone](https://commons.wikimedia.org/wiki/File:Blue_condenser_microphone_(Unsplash).jpg), Kelly Sikkema, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

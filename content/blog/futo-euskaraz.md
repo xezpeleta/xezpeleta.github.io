@@ -1,6 +1,8 @@
 ---
 title: "Euskarazko testu prediktiboa mugikorretan pribatutasuna errespetatuz"
 date: 2026-07-20
+description: "FUTO Keyboard-erako euskarazko hizkuntza eredu txikia: hurrengo hitza iragarri eta akatsak zuzentzen ditu Android-en, pribatutasuna errespetatuz."
+images: ["images/futo-euskaraz-cover.jpg"]
 draft: false
 tags: ["ai", "euskara", "autocompletion", "gboard", "transformer", "llama", "latxa", "futo", "auto-osaketa"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "RAG lokala euskaraz Tülu 3 erabiliz"
 date: 2024-02-09
+description: "RAG sistema lokala euskaraz, Tülu 3 70B, Ollama eta Open-WebUI erabiliz: zure dokumentuekin txateatu, dena zure ekipoan."
 draft: false
 tags: ["llm", "rag", "euskara", "ai", "tulu", "ollama"]
 cover:

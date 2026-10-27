@@ -1,6 +1,7 @@
 ---
 title: "Local RAG in Basque using Tülu 3"
 date: 2024-02-09
+description: "A local RAG system in Basque with Tülu 3 70B, Ollama and Open-WebUI: chat with your documents, with everything running on your machine."
 draft: false
 tags: ["llm", "rag", "basque", "ai", "tulu", "ollama"]
 cover:

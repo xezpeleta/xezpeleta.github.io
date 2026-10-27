@@ -1,6 +1,7 @@
 ---
 title: "GitHub Copilot Agent Mode: Garapenerako lankide adimenduna"
 date: 2024-02-12
+description: "GitHub Copilot-en Agent Mode probatzen: proiektuko fitxategiak aztertu, aldatu eta komandoak exekutatzen dituen garapen laguntzaile autonomoa, euskaraz ere."
 draft: false
 tags: ["github", "ai", "vscode"]
 cover:

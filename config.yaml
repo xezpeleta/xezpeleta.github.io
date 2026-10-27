@@ -1,10 +1,6 @@
 baseURL: 'https://xezpeleta.github.io/'
-languageCode: eu-es
 title: Xabi Ezpeleta
-author: Xabi Ezpeleta
-description: Xabiren bloga
-keywords: Blog
-copyright: 'Copyright © 2021, Xabier Ezpeleta. License [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).'
+copyright: 'Copyright © Xabier Ezpeleta. License [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).'
 theme: PaperMod
 
 # Replacing deprecated 'paginate' with new 'pagination.pagerSize'
@@ -14,8 +10,11 @@ pluralizeListTitles: false
 enableRobotsTXT: true
 
 params:
-  author:
-    name: Xabi Ezpeleta
+  author: Xabi Ezpeleta
+
+  # Sare sozialetan partekatzean erabiltzen den irudi lehenetsia (cover gabeko orrietan)
+  images:
+    - images/og-default.png
 
   hideAuthor: true
   ShowToc: true
@@ -36,10 +35,9 @@ params:
   - name: github
     url: "https://github.com/xezpeleta"
 
-googleAnalytics: G-ZJRN8P7X6R
-analytics:
-  google:
-    SiteVerificationTag: G-ZJRN8P7X6R
+services:
+  googleAnalytics:
+    id: G-ZJRN8P7X6R
 
 #menu:
 #  main:
@@ -55,8 +53,14 @@ analytics:
 defaultContentLanguage: eu
 languages:
   eu:
-    languageName: 'Euskara'
+    label: 'Euskara'
+    locale: eu-ES
     weight: 1
+    params:
+      description: 'Xabi Ezpeletaren bloga: euskara, adimen artifiziala eta software librea.'
+    cascade:
+      params:
+        locale: eu_ES
     menu:
       main:
         - name: kategoriak
@@ -66,8 +70,14 @@ languages:
           url: tags/
           weight: 20
   en:
-    languageName: 'English'
+    label: 'English'
+    locale: en-US
     weight: 2
+    params:
+      description: "Xabi Ezpeleta's blog: Basque language, artificial intelligence and free software."
+    cascade:
+      params:
+        locale: en_US
     menu:
       main:
         - name: categories
