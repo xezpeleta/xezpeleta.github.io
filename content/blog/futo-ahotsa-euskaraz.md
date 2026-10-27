@@ -1,6 +1,6 @@
 ---
 title: "Euskaraz diktatzen mugikorrean, ahotsa inora bidali gabe"
-date: 2026-10-27
+date: 2026-07-21
 draft: false
 tags: ["ai", "euskara", "stt", "asr", "whisper", "whisper.cpp", "acft", "futo", "ahots-sarrera"]
 ---

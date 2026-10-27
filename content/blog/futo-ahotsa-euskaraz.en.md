@@ -1,6 +1,6 @@
 ---
 title: "Dictating in Basque on mobile, without sending your voice anywhere"
-date: 2026-10-27
+date: 2026-07-21
 draft: false
 tags: ["ai", "euskara", "basque", "stt", "asr", "whisper", "whisper.cpp", "acft", "futo", "voice-input"]
 ---
