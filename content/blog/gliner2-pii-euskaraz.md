@@ -9,11 +9,11 @@ tags: ["ai", "euskara", "pii", "pribatutasuna", "gliner2", "ner", "lora", "tknik
 
 [GLiNER2](https://github.com/fastino-ai/GLiNER2) testu batetik entitateak (izenak, lekuak, datak...) erauzteko eredu familia bat da. Berezitasuna da ez duela aurrez finkatutako etiketa zerrendarik: guk esaten diogu zer bilatu nahi dugun ("pertsona izena", "telefonoa", "posta elektronikoa"...), eta horiek bilatzen ditu testuan.
 
-Fastino-k datu pertsonalak (ingelesez *PII*, *Personally Identifiable Information*) detektatzeko bertsio bat argitaratu zuen: [gliner2-privacy-filter-PII-multi](https://huggingface.co/fastino/gliner2-privacy-filter-PII-multi). 205M parametro besterik ez ditu, eta ez du GPUrik behar.
+Fastino-k datu pertsonalak (ingelesez *PII*, *Personally Identifiable Information*) detektatzeko bertsio eleanitza argitaratu zuen duela hilabete gutxi: [gliner2-privacy-filter-PII-multi](https://huggingface.co/fastino/gliner2-privacy-filter-PII-multi). 205M parametro besterik ez ditu, eta ez du GPUrik behar exekutatzeko.
 
 ## Eta euskaraz?
 
-Eleaniztuna izan arren, euskaraz ez dabil fin. Helbideak ia ez ditu detektatzen, eta euskal izen eta abizenekin ere huts egiten du askotan. Gure deklinabideak ere ez dio laguntzen: "Amorebietan bizi naiz" esaldian, *Amorebietan* osoa da hiriaren aipamena, atzizkia barne.
+Eleaniztuna izan arren, euskaraz ez dabil fin. Euskal izenak, abizenak, helbideak ez ditu ondo detektatzen. Gure deklinabideak ere ez dio asko laguntzen: "Amorebietan bizi naiz" esaldian, hiriaren izen gisa *Amorebietan* hartzen zuen (*Amorebieta* beharrean).
 
 Eta alderantzizko arazoa ere bai: datu pertsonalik gabeko 159 esalditan, **225 faltsu positibo** ematen zituen.
 
