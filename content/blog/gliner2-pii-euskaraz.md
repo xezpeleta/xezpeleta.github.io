@@ -63,4 +63,4 @@ Edo hizkuntza eredu bati (LLM) zerbait eskatu aurretik, nahi gabe idatzi dugun i
 
 Eredua, datu-sorta eta kodea eskuragarri daude: [Hugging Face](https://huggingface.co/tknika/gliner2-PII-basque-v2) eta [GitHub](https://github.com/tknika/gliner2-pii-basque).
 
-*Azaleko irudia: [Magnifying glass with focus on paper](https://commons.wikimedia.org/wiki/File:Magnifying_glass_with_focus_on_paper.png), Niabot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
+*Partekatzeko irudia: [Magnifying glass with focus on paper](https://commons.wikimedia.org/wiki/File:Magnifying_glass_with_focus_on_paper.png), Niabot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*

@@ -67,4 +67,4 @@ And you're done! Tap the microphone button and speak in Basque.
 
 The models are available [on Hugging Face](https://huggingface.co/itzune/whisper-small-eu-acft-ggml), as part of the [Itzune](https://huggingface.co/itzune) project. Together with predictive text, we now have the full FUTO keyboard in Basque: for typing and for speaking, all on our own phone. Try it out and let me know how it goes!
 
-*Cover image: [Woman speaking on phone](https://commons.wikimedia.org/wiki/File:Woman_speaking_on_phone.jpg), Queen Asali, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Sharing image: [Woman speaking on phone](https://commons.wikimedia.org/wiki/File:Woman_speaking_on_phone.jpg), Queen Asali, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

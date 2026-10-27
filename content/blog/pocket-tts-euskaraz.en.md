@@ -97,4 +97,4 @@ It's not perfect. Some words aren't pronounced correctly, for example **"Antton"
 
 The model, dataset and code are available on [Hugging Face](https://huggingface.co/itzune/pocket-tts-basque) and [GitHub](https://github.com/itzune/pocket-tts-basque), as part of the [Itzune](https://itzune.eus) project. Try it out and let me know how it goes!
 
-*Cover image: [Blue condenser microphone](https://commons.wikimedia.org/wiki/File:Blue_condenser_microphone_(Unsplash).jpg), Kelly Sikkema, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*
+*Sharing image: [Blue condenser microphone](https://commons.wikimedia.org/wiki/File:Blue_condenser_microphone_(Unsplash).jpg), Kelly Sikkema, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

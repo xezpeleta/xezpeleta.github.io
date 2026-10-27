@@ -67,4 +67,4 @@ Eta prest! Sakatu mikrofonoaren botoia eta hitz egin euskaraz.
 
 Ereduak [Hugging Face-n](https://huggingface.co/itzune/whisper-small-eu-acft-ggml) eskuragarri daude, [Itzune](https://huggingface.co/itzune) proiektuaren baitan. Testu prediktiboarekin batera, FUTO teklatua osorik dugu euskaraz: idazteko eta hitz egiteko, dena gure mugikorrean. Probatu eta esan zer moduz!
 
-*Azaleko irudia: [Woman speaking on phone](https://commons.wikimedia.org/wiki/File:Woman_speaking_on_phone.jpg), Queen Asali, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Partekatzeko irudia: [Woman speaking on phone](https://commons.wikimedia.org/wiki/File:Woman_speaking_on_phone.jpg), Queen Asali, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

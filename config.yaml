@@ -16,6 +16,10 @@ params:
   images:
     - images/og-default.png
 
+  # Azal-irudiak ez erakutsi webgunean (sare sozialetan erabiltzen jarraitzen dira)
+  cover:
+    hidden: true
+
   hideAuthor: true
   ShowToc: true
   TocOpen: false

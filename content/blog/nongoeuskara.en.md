@@ -45,4 +45,4 @@ I wanted users to enter a text, have it identified, and then highlight the sub-d
 
 To do this, I had to run the model via *WebAssembly* (*WASM*), previously *quantized* (compressed). Same conclusion again: *WASM* is amazing for this kind of thing! Without a server, without sending data anywhere, we as users can run cutting-edge applications or AI models right in our browsers.
 
-*Cover image: [Euskalkien mapa, 2019](https://commons.wikimedia.org/wiki/File:Koldo_Zuazo_-_Euskalkien_mapa,_2019.jpg), Koldo Zuazo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Sharing image: [Euskalkien mapa, 2019](https://commons.wikimedia.org/wiki/File:Koldo_Zuazo_-_Euskalkien_mapa,_2019.jpg), Koldo Zuazo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

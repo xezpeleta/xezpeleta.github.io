@@ -81,4 +81,4 @@ Bada [hari bat FUTOren GitHub webgunean](https://github.com/futo-org/android-key
 >
 >Hau dela eta, OSI (Open Source Initiative) edo FSF (Free Software Foundation) bezalako erakundeen arabera **FUTOk ez ditu software-aske gisa izendatzeko baldintzak betetzen**.
 
-*Azaleko irudia: [Woman texting on a smartphone](https://commons.wikimedia.org/wiki/File:Woman_texting_on_a_smartphone.jpg), Kristin Hardwick, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*
+*Partekatzeko irudia: [Woman texting on a smartphone](https://commons.wikimedia.org/wiki/File:Woman_texting_on_a_smartphone.jpg), Kristin Hardwick, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

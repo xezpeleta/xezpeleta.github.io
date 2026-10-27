@@ -27,4 +27,4 @@ Etorkizunean gehitu nahiko nituzkeen gauzen artean:
 
 Proiektua [Itzune](https://itzune.eus) ekimenaren baitan argitaratu dut. Webguneaz gain, [biltegian](https://github.com/itzune/evaleu) ebaluazioak sortzeko erabilitako tresnak ere aurkituko dituzue. Hobekuntzak eta ideiak eskertzen dira!
 
-*Azaleko irudia: [Tape measure colored](https://commons.wikimedia.org/wiki/File:Tape_measure_colored.jpeg), Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
+*Partekatzeko irudia: [Tape measure colored](https://commons.wikimedia.org/wiki/File:Tape_measure_colored.jpeg), Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*

@@ -27,4 +27,4 @@ Among the things I would like to add in the future:
 
 The project has been published under the [Itzune](https://itzune.eus) initiative. In addition to the website, you will find the tools used to run the evaluations in the [repository](https://github.com/itzune/evaleu). Improvements and ideas are very welcome!
 
-*Cover image: [Tape measure colored](https://commons.wikimedia.org/wiki/File:Tape_measure_colored.jpeg), Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
+*Sharing image: [Tape measure colored](https://commons.wikimedia.org/wiki/File:Tape_measure_colored.jpeg), Simon A. Eugster, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*

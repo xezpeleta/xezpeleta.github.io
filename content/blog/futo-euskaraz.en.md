@@ -81,4 +81,4 @@ There's [a thread on FUTO's GitHub](https://github.com/futo-org/android-keyboard
 >
 >Because of this, according to organizations such as OSI (Open Source Initiative) or FSF (Free Software Foundation), **FUTO does not meet the requirements to be classified as free/open-source software**.
 
-*Cover image: [Woman texting on a smartphone](https://commons.wikimedia.org/wiki/File:Woman_texting_on_a_smartphone.jpg), Kristin Hardwick, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*
+*Sharing image: [Woman texting on a smartphone](https://commons.wikimedia.org/wiki/File:Woman_texting_on_a_smartphone.jpg), Kristin Hardwick, [CC0](https://creativecommons.org/publicdomain/zero/1.0/).*

@@ -46,4 +46,4 @@ Erabiltzaileak testu bat sartu, identifikatu eta Euskal Herriko mapan azpieuskal
 
 Hau egiteko, *WebAssembly* (*WASM*) bidez exekutatu behar izan dut eredua, aldez aurretik *kuantizatuta* (konprimatuta). Ondorio gisa: **_WASM_** ikaragarria da horrelako gauzetarako! Zerbitzaririk gabe, datuak inora bidali gabe, erabiltzaileok gure nabigatzaileetan punta-puntako aplikazio edo adimen artifizialeko ereduak exekutatu ditzakegu.
 
-*Azaleko irudia: [Euskalkien mapa, 2019](https://commons.wikimedia.org/wiki/File:Koldo_Zuazo_-_Euskalkien_mapa,_2019.jpg), Koldo Zuazo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+*Partekatzeko irudia: [Euskalkien mapa, 2019](https://commons.wikimedia.org/wiki/File:Koldo_Zuazo_-_Euskalkien_mapa,_2019.jpg), Koldo Zuazo, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*

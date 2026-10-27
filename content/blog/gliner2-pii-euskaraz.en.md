@@ -63,4 +63,4 @@ Or before asking a language model (LLM) for something, to catch a name or phone 
 
 The model, dataset and code are available on [Hugging Face](https://huggingface.co/tknika/gliner2-PII-basque-v2) and [GitHub](https://github.com/tknika/gliner2-pii-basque).
 
-*Cover image: [Magnifying glass with focus on paper](https://commons.wikimedia.org/wiki/File:Magnifying_glass_with_focus_on_paper.png), Niabot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
+*Sharing image: [Magnifying glass with focus on paper](https://commons.wikimedia.org/wiki/File:Magnifying_glass_with_focus_on_paper.png), Niabot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).*
