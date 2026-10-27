@@ -1,7 +1,9 @@
 ---
 title: "Euskarazko ahots sintesirako eredu berriak: Maider, Antton eta OmniVoice"
 date: 2026-04-04
-images: ["images/euskarazko-ahots-sintesirako-ereduak-cover.jpg"]
+cover:
+    image: "/images/euskarazko-ahots-sintesirako-ereduak-cover.jpg"
+    alt: "Estudioko mikrofonoa"
 description: "Euskarazko ahots sintesirako eredu berriak: HiTZ-en Maider eta Antton ahotsak Piper TTS-rako, eta 600 hizkuntza baino gehiago sintetizatzen dituen OmniVoice."
 draft: false
 tags: ["ai", "euskara", "tts", "hitz", "aholab", "itzune", "pipertts", "omnivoice", "xiaomi"]

@@ -1,7 +1,9 @@
 ---
 title: "New blog"
 date: 2021-11-05T21:33:11+02:00
-images: ["images/blog-berria-cover.jpg"]
+cover:
+    image: "/images/blog-berria-cover.jpg"
+    alt: "Old typewriter keyboard"
 description: "Hi! A new blog to write about the technologies I learn and try out, built with Hugo."
 draft: false
 categories:

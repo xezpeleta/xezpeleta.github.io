@@ -1,7 +1,9 @@
 ---
 title: "New Text-to-Speech Models for Basque: Maider, Antton and OmniVoice"
 date: 2026-04-04
-images: ["images/euskarazko-ahots-sintesirako-ereduak-cover.jpg"]
+cover:
+    image: "/images/euskarazko-ahots-sintesirako-ereduak-cover.jpg"
+    alt: "Studio microphone"
 description: "New Basque text-to-speech models: HiTZ's Maider and Antton voices for Piper TTS, and OmniVoice, which can synthesize over 600 languages."
 draft: false
 tags: ["ai", "basque", "tts", "hitz", "aholab", "itzune", "pipertts", "omnivoice", "xiaomi"]

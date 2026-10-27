@@ -1,7 +1,9 @@
 ---
 title: "Pocket TTS euskaraz: ahots sintesia denbora errealean, CPU soil batean"
 date: 2026-10-18
-images: ["images/pocket-tts-euskaraz-cover.jpg"]
+cover:
+    image: "/images/pocket-tts-euskaraz-cover.jpg"
+    alt: "Mikrofono urdina"
 description: "Pocket TTS euskarara egokituta: CPU soil batean denbora errealean dabilen ahots sintesia, ahotsak klonatzeko aukerarekin eta 470 orduko datu-sorta sintetiko batekin."
 draft: false
 tags: ["ai", "euskara", "tts", "pocket-tts", "kyutai", "omnivoice", "pipertts", "itzune", "bssd"]

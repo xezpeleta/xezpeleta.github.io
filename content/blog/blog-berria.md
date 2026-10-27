@@ -1,7 +1,9 @@
 ---
 title: "Blog berria"
 date: 2021-10-26T21:33:11+02:00
-images: ["images/blog-berria-cover.jpg"]
+cover:
+    image: "/images/blog-berria-cover.jpg"
+    alt: "Idazmakina zahar baten teklatua"
 description: "Kaixo! Ikusten eta ikasten ditudan teknologien inguruan idazteko blog berria, Hugo erabiliz sortua."
 draft: false
 categories:

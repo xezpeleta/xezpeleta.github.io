@@ -1,7 +1,9 @@
 ---
 title: "Pocket TTS in Basque: real-time speech synthesis on a plain CPU"
 date: 2026-10-18
-images: ["images/pocket-tts-euskaraz-cover.jpg"]
+cover:
+    image: "/images/pocket-tts-euskaraz-cover.jpg"
+    alt: "Blue microphone"
 description: "Pocket TTS adapted to Basque: real-time speech synthesis on a plain CPU, with voice cloning, trained on a 470-hour synthetic dataset."
 draft: false
 tags: ["ai", "euskara", "basque", "tts", "pocket-tts", "kyutai", "omnivoice", "pipertts", "itzune", "bssd"]
